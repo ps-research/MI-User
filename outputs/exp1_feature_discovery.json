@@ -1,0 +1,4417 @@
+{
+  "properties": {
+    "P1_vulnerability": {
+      "name": "Vulnerability Detection",
+      "high_label": "Vulnerable",
+      "low_label": "Clinical",
+      "n_pairs": 5,
+      "total_candidates": 512,
+      "top_features": [
+        {
+          "layer": 25,
+          "feature_idx": 894,
+          "mean_abs_diff": 462.0,
+          "mean_signed_diff": 462.0,
+          "std": 129.0,
+          "consistency": 0.2792207792147355,
+          "n_pairs": 2,
+          "all_deltas": [
+            333.0,
+            591.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 790,
+          "mean_abs_diff": 456.25,
+          "mean_signed_diff": 456.25,
+          "std": 20.292855885754474,
+          "consistency": 0.04447749235136372,
+          "n_pairs": 5,
+          "all_deltas": [
+            432.0,
+            489.0,
+            437.75,
+            459.5,
+            463.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 959,
+          "mean_abs_diff": 450.0,
+          "mean_signed_diff": 450.0,
+          "std": 140.70252307616946,
+          "consistency": 0.3126722734956505,
+          "n_pairs": 5,
+          "all_deltas": [
+            542.0,
+            296.0,
+            601.0,
+            547.0,
+            264.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1634,
+          "mean_abs_diff": 446.3,
+          "mean_signed_diff": 446.3,
+          "std": 139.00444237505505,
+          "consistency": 0.3114596512927189,
+          "n_pairs": 5,
+          "all_deltas": [
+            379.25,
+            539.0,
+            548.0,
+            202.25,
+            563.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 159,
+          "mean_abs_diff": 438.25,
+          "mean_signed_diff": 438.25,
+          "std": 136.13302317953568,
+          "consistency": 0.31062868950696954,
+          "n_pairs": 5,
+          "all_deltas": [
+            319.0,
+            444.75,
+            584.5,
+            589.5,
+            253.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9399,
+          "mean_abs_diff": 426.4,
+          "mean_signed_diff": 426.4,
+          "std": 77.48445005289771,
+          "consistency": 0.18171775340309695,
+          "n_pairs": 5,
+          "all_deltas": [
+            485.5,
+            383.5,
+            547.5,
+            340.5,
+            375.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 4438,
+          "mean_abs_diff": 422.0,
+          "mean_signed_diff": 422.0,
+          "std": 81.54753215150045,
+          "consistency": 0.19324059751082473,
+          "n_pairs": 3,
+          "all_deltas": [
+            307.0,
+            487.0,
+            472.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 857,
+          "mean_abs_diff": 407.5,
+          "mean_signed_diff": -407.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -407.5
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 406.4,
+          "mean_signed_diff": 227.2,
+          "std": 350.6938265781136,
+          "consistency": 0.8629277228579831,
+          "n_pairs": 5,
+          "all_deltas": [
+            471.0,
+            215.0,
+            -448.0,
+            472.0,
+            426.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 5650,
+          "mean_abs_diff": 365.7,
+          "mean_signed_diff": 365.7,
+          "std": 44.54391091945116,
+          "consistency": 0.12180451440588765,
+          "n_pairs": 5,
+          "all_deltas": [
+            290.5,
+            429.5,
+            375.5,
+            359.5,
+            373.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 345,
+          "mean_abs_diff": 335.75,
+          "mean_signed_diff": 335.75,
+          "std": 107.07007051459338,
+          "consistency": 0.31889819958720594,
+          "n_pairs": 5,
+          "all_deltas": [
+            464.75,
+            382.75,
+            378.75,
+            146.75,
+            305.75
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 425,
+          "mean_abs_diff": 326.5,
+          "mean_signed_diff": -326.5,
+          "std": 60.0,
+          "consistency": 0.18376722817201324,
+          "n_pairs": 2,
+          "all_deltas": [
+            -266.5,
+            -386.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 4010,
+          "mean_abs_diff": 320.4,
+          "mean_signed_diff": 320.4,
+          "std": 159.1019798745446,
+          "consistency": 0.4965729708788355,
+          "n_pairs": 5,
+          "all_deltas": [
+            106.0,
+            427.0,
+            565.0,
+            257.0,
+            247.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1318,
+          "mean_abs_diff": 316.3125,
+          "mean_signed_diff": -160.9375,
+          "std": 326.5798320759413,
+          "consistency": 1.032459457231746,
+          "n_pairs": 4,
+          "all_deltas": [
+            77.25,
+            233.5,
+            -393.0,
+            -561.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 7237,
+          "mean_abs_diff": 306.0,
+          "mean_signed_diff": 306.0,
+          "std": 26.56501458685841,
+          "consistency": 0.08681377315683095,
+          "n_pairs": 5,
+          "all_deltas": [
+            285.5,
+            332.0,
+            302.0,
+            270.5,
+            340.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 3641,
+          "mean_abs_diff": 303.0,
+          "mean_signed_diff": 303.0,
+          "std": 31.5,
+          "consistency": 0.10396039603617292,
+          "n_pairs": 2,
+          "all_deltas": [
+            271.5,
+            334.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 427,
+          "mean_abs_diff": 298.0,
+          "mean_signed_diff": 298.0,
+          "std": 42.261093218230876,
+          "consistency": 0.14181574904970712,
+          "n_pairs": 5,
+          "all_deltas": [
+            296.5,
+            301.0,
+            282.5,
+            239.5,
+            370.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 863,
+          "mean_abs_diff": 295.875,
+          "mean_signed_diff": 295.875,
+          "std": 131.66452398045573,
+          "consistency": 0.4450005035099475,
+          "n_pairs": 4,
+          "all_deltas": [
+            453.0,
+            396.0,
+            195.0,
+            139.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 166,
+          "mean_abs_diff": 294.875,
+          "mean_signed_diff": 294.875,
+          "std": 85.55142824640626,
+          "consistency": 0.29012777700213643,
+          "n_pairs": 4,
+          "all_deltas": [
+            148.75,
+            361.25,
+            321.75,
+            347.75
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 293.4,
+          "mean_signed_diff": -293.4,
+          "std": 110.26078178572833,
+          "consistency": 0.37580361888878766,
+          "n_pairs": 5,
+          "all_deltas": [
+            -389.0,
+            -144.0,
+            -374.0,
+            -174.0,
+            -386.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 123,
+          "mean_abs_diff": 290.25,
+          "mean_signed_diff": 290.25,
+          "std": 96.70884137450929,
+          "consistency": 0.3331915292719289,
+          "n_pairs": 5,
+          "all_deltas": [
+            181.75,
+            378.0,
+            298.5,
+            180.0,
+            413.0
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 272,
+          "mean_abs_diff": 286.375,
+          "mean_signed_diff": 286.375,
+          "std": 74.62018409921005,
+          "consistency": 0.2605680806516084,
+          "n_pairs": 4,
+          "all_deltas": [
+            214.0,
+            317.0,
+            394.5,
+            220.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 237,
+          "mean_abs_diff": 281.0,
+          "mean_signed_diff": 281.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            281.0
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 1342,
+          "mean_abs_diff": 279.75,
+          "mean_signed_diff": -279.75,
+          "std": 152.57511811126565,
+          "consistency": 0.5453980986802919,
+          "n_pairs": 3,
+          "all_deltas": [
+            -72.25,
+            -332.25,
+            -434.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9602,
+          "mean_abs_diff": 261.95,
+          "mean_signed_diff": 261.95,
+          "std": 73.7879393939145,
+          "consistency": 0.28168711353730724,
+          "n_pairs": 5,
+          "all_deltas": [
+            343.25,
+            274.75,
+            297.75,
+            123.75,
+            270.25
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 1915,
+          "mean_abs_diff": 250.375,
+          "mean_signed_diff": -250.375,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -250.375
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 324,
+          "mean_abs_diff": 247.75,
+          "mean_signed_diff": 247.75,
+          "std": 70.79901129253147,
+          "consistency": 0.28576795676962174,
+          "n_pairs": 5,
+          "all_deltas": [
+            205.75,
+            134.75,
+            258.75,
+            324.25,
+            315.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1953,
+          "mean_abs_diff": 245.6,
+          "mean_signed_diff": 245.6,
+          "std": 140.5803684729842,
+          "consistency": 0.5723956370816785,
+          "n_pairs": 5,
+          "all_deltas": [
+            331.5,
+            72.5,
+            218.0,
+            467.5,
+            138.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 8533,
+          "mean_abs_diff": 243.0,
+          "mean_signed_diff": -243.0,
+          "std": 78.5,
+          "consistency": 0.3230452674764179,
+          "n_pairs": 2,
+          "all_deltas": [
+            -164.5,
+            -321.5
+          ]
+        },
+        {
+          "layer": 11,
+          "feature_idx": 5609,
+          "mean_abs_diff": 240.8,
+          "mean_signed_diff": 240.8,
+          "std": 41.014524866198315,
+          "consistency": 0.17032609993561068,
+          "n_pairs": 5,
+          "all_deltas": [
+            232.375,
+            311.0,
+            193.0,
+            211.125,
+            256.5
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 144,
+          "mean_abs_diff": 231.0,
+          "mean_signed_diff": 231.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            231.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2599,
+          "mean_abs_diff": 225.5,
+          "mean_signed_diff": 225.5,
+          "std": 92.0,
+          "consistency": 0.4079822616227059,
+          "n_pairs": 2,
+          "all_deltas": [
+            317.5,
+            133.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 359,
+          "mean_abs_diff": 224.375,
+          "mean_signed_diff": 224.375,
+          "std": 94.4099107615297,
+          "consistency": 0.42076840448945746,
+          "n_pairs": 5,
+          "all_deltas": [
+            168.0,
+            264.875,
+            269.375,
+            346.375,
+            73.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7727,
+          "mean_abs_diff": 222.7,
+          "mean_signed_diff": 222.7,
+          "std": 50.24499975121903,
+          "consistency": 0.2256174214142921,
+          "n_pairs": 5,
+          "all_deltas": [
+            172.5,
+            287.5,
+            247.5,
+            155.5,
+            250.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1221,
+          "mean_abs_diff": 220.2,
+          "mean_signed_diff": 220.2,
+          "std": 153.01106169163066,
+          "consistency": 0.6948731230003721,
+          "n_pairs": 5,
+          "all_deltas": [
+            71.0,
+            285.75,
+            476.25,
+            63.0,
+            205.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 1369,
+          "mean_abs_diff": 217.75,
+          "mean_signed_diff": 217.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            217.75
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 213.16666666666666,
+          "mean_signed_diff": 213.16666666666666,
+          "std": 11.08552609887726,
+          "consistency": 0.052004031735843094,
+          "n_pairs": 3,
+          "all_deltas": [
+            211.5,
+            200.5,
+            227.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 687,
+          "mean_abs_diff": 212.25,
+          "mean_signed_diff": 212.25,
+          "std": 33.12853754695489,
+          "consistency": 0.15608262683342314,
+          "n_pairs": 5,
+          "all_deltas": [
+            202.25,
+            253.75,
+            239.25,
+            207.75,
+            158.25
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 282,
+          "mean_abs_diff": 210.25,
+          "mean_signed_diff": -210.25,
+          "std": 62.50259994592225,
+          "consistency": 0.2972775264825183,
+          "n_pairs": 5,
+          "all_deltas": [
+            -165.0,
+            -128.125,
+            -206.375,
+            -243.375,
+            -308.375
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 328,
+          "mean_abs_diff": 208.66666666666666,
+          "mean_signed_diff": -208.66666666666666,
+          "std": 88.57231822389858,
+          "consistency": 0.4244679786884372,
+          "n_pairs": 3,
+          "all_deltas": [
+            -250.5,
+            -290.0,
+            -85.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 170,
+          "mean_abs_diff": 196.5,
+          "mean_signed_diff": -196.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -196.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 5206,
+          "mean_abs_diff": 194.0,
+          "mean_signed_diff": 97.2,
+          "std": 185.54287914118396,
+          "consistency": 0.9564065934619582,
+          "n_pairs": 5,
+          "all_deltas": [
+            50.0,
+            259.0,
+            168.0,
+            -242.0,
+            251.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 2184,
+          "mean_abs_diff": 183.5,
+          "mean_signed_diff": -183.5,
+          "std": 78.49585976342956,
+          "consistency": 0.4277703529109093,
+          "n_pairs": 5,
+          "all_deltas": [
+            -117.25,
+            -308.25,
+            -242.75,
+            -139.0,
+            -110.25
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 3098,
+          "mean_abs_diff": 183.25,
+          "mean_signed_diff": -183.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -183.25
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 403,
+          "mean_abs_diff": 183.125,
+          "mean_signed_diff": 183.125,
+          "std": 27.875,
+          "consistency": 0.15221843002581742,
+          "n_pairs": 2,
+          "all_deltas": [
+            155.25,
+            211.0
+          ]
+        },
+        {
+          "layer": 11,
+          "feature_idx": 988,
+          "mean_abs_diff": 182.65,
+          "mean_signed_diff": 182.65,
+          "std": 37.844286226589084,
+          "consistency": 0.20719565411725774,
+          "n_pairs": 5,
+          "all_deltas": [
+            175.25,
+            245.5,
+            193.5,
+            129.0,
+            170.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1539,
+          "mean_abs_diff": 182.0,
+          "mean_signed_diff": 182.0,
+          "std": 89.81258263740109,
+          "consistency": 0.493475728749815,
+          "n_pairs": 5,
+          "all_deltas": [
+            12.5,
+            268.0,
+            204.0,
+            182.5,
+            243.0
+          ]
+        },
+        {
+          "layer": 23,
+          "feature_idx": 197,
+          "mean_abs_diff": 177.75,
+          "mean_signed_diff": 115.25,
+          "std": 184.66066852472943,
+          "consistency": 1.0388785851720992,
+          "n_pairs": 4,
+          "all_deltas": [
+            45.0,
+            157.5,
+            -125.0,
+            383.5
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 387,
+          "mean_abs_diff": 176.5,
+          "mean_signed_diff": 176.5,
+          "std": 30.0,
+          "consistency": 0.16997167137847186,
+          "n_pairs": 2,
+          "all_deltas": [
+            146.5,
+            206.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 269,
+          "mean_abs_diff": 175.625,
+          "mean_signed_diff": 175.625,
+          "std": 36.88436321803591,
+          "consistency": 0.2100177264964312,
+          "n_pairs": 5,
+          "all_deltas": [
+            240.375,
+            156.125,
+            154.875,
+            190.75,
+            136.0
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "25": 2,
+        "15": 7,
+        "16": 2,
+        "18": 7,
+        "22": 2,
+        "20": 1,
+        "19": 1,
+        "17": 5,
+        "14": 1,
+        "24": 1,
+        "11": 1
+      }
+    },
+    "P2_authority_compliance": {
+      "name": "Authority Compliance",
+      "high_label": "Authority Claimed",
+      "low_label": "No Authority",
+      "n_pairs": 5,
+      "total_candidates": 504,
+      "top_features": [
+        {
+          "layer": 15,
+          "feature_idx": 130,
+          "mean_abs_diff": 691.15,
+          "mean_signed_diff": 691.15,
+          "std": 244.70812205564408,
+          "consistency": 0.35405935332721333,
+          "n_pairs": 5,
+          "all_deltas": [
+            482.25,
+            939.25,
+            320.5,
+            887.75,
+            826.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 5423,
+          "mean_abs_diff": 563.0,
+          "mean_signed_diff": 563.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            563.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 16,
+          "mean_abs_diff": 561.4,
+          "mean_signed_diff": 561.4,
+          "std": 216.191211662269,
+          "consistency": 0.3850930025978235,
+          "n_pairs": 5,
+          "all_deltas": [
+            687.0,
+            155.0,
+            547.0,
+            642.0,
+            776.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 155,
+          "mean_abs_diff": 460.4,
+          "mean_signed_diff": 407.2,
+          "std": 278.8170726479998,
+          "consistency": 0.605597464469904,
+          "n_pairs": 5,
+          "all_deltas": [
+            418.5,
+            -133.0,
+            564.5,
+            554.5,
+            631.5
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2599,
+          "mean_abs_diff": 423.5,
+          "mean_signed_diff": 423.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            423.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1021,
+          "mean_abs_diff": 420.3,
+          "mean_signed_diff": 420.3,
+          "std": 187.14903152300843,
+          "consistency": 0.44527487870225,
+          "n_pairs": 5,
+          "all_deltas": [
+            451.0,
+            532.0,
+            53.5,
+            564.0,
+            501.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 324,
+          "mean_abs_diff": 412.25,
+          "mean_signed_diff": 412.25,
+          "std": 236.61717498947536,
+          "consistency": 0.5739652516282249,
+          "n_pairs": 4,
+          "all_deltas": [
+            74.5,
+            743.5,
+            423.5,
+            407.5
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 396.0,
+          "mean_signed_diff": -358.4,
+          "std": 340.60980608314844,
+          "consistency": 0.8601257729155232,
+          "n_pairs": 5,
+          "all_deltas": [
+            -824.0,
+            -32.0,
+            94.0,
+            -554.0,
+            -476.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1634,
+          "mean_abs_diff": 394.75,
+          "mean_signed_diff": 357.95,
+          "std": 282.62720145095733,
+          "consistency": 0.7159650448227933,
+          "n_pairs": 5,
+          "all_deltas": [
+            731.0,
+            -92.0,
+            451.75,
+            193.25,
+            505.75
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1221,
+          "mean_abs_diff": 384.625,
+          "mean_signed_diff": 384.625,
+          "std": 97.44060691005573,
+          "consistency": 0.25333924447844614,
+          "n_pairs": 4,
+          "all_deltas": [
+            464.25,
+            498.25,
+            282.75,
+            293.25
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 894,
+          "mean_abs_diff": 381.5,
+          "mean_signed_diff": 381.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            381.5
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 23,
+          "mean_abs_diff": 370.35,
+          "mean_signed_diff": 370.35,
+          "std": 78.91967435310411,
+          "consistency": 0.21309484096388054,
+          "n_pairs": 5,
+          "all_deltas": [
+            349.5,
+            231.25,
+            444.25,
+            380.25,
+            446.5
+          ]
+        },
+        {
+          "layer": 23,
+          "feature_idx": 197,
+          "mean_abs_diff": 357.5,
+          "mean_signed_diff": -142.3,
+          "std": 384.5963598371675,
+          "consistency": 1.0757940135004462,
+          "n_pairs": 5,
+          "all_deltas": [
+            -534.0,
+            -621.5,
+            358.0,
+            180.0,
+            -94.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 3641,
+          "mean_abs_diff": 331.5,
+          "mean_signed_diff": 331.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            331.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 4010,
+          "mean_abs_diff": 323.6,
+          "mean_signed_diff": 267.2,
+          "std": 237.1416454358028,
+          "consistency": 0.7328233789507865,
+          "n_pairs": 5,
+          "all_deltas": [
+            578.0,
+            -141.0,
+            205.0,
+            321.0,
+            373.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7869,
+          "mean_abs_diff": 317.3333333333333,
+          "mean_signed_diff": 317.3333333333333,
+          "std": 71.2242156073964,
+          "consistency": 0.22444605757926034,
+          "n_pairs": 3,
+          "all_deltas": [
+            264.0,
+            270.0,
+            418.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 1369,
+          "mean_abs_diff": 316.75,
+          "mean_signed_diff": 316.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            316.75
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 4761,
+          "mean_abs_diff": 309.3333333333333,
+          "mean_signed_diff": 309.3333333333333,
+          "std": 175.31178574819842,
+          "consistency": 0.566740686667665,
+          "n_pairs": 3,
+          "all_deltas": [
+            232.0,
+            552.0,
+            144.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 88,
+          "mean_abs_diff": 305.025,
+          "mean_signed_diff": 305.025,
+          "std": 91.38956450273741,
+          "consistency": 0.29961335792063365,
+          "n_pairs": 5,
+          "all_deltas": [
+            294.5,
+            474.0,
+            282.5,
+            196.125,
+            278.0
+          ]
+        },
+        {
+          "layer": 9,
+          "feature_idx": 316,
+          "mean_abs_diff": 299.0,
+          "mean_signed_diff": -299.0,
+          "std": 71.31409397867998,
+          "consistency": 0.23850867550600297,
+          "n_pairs": 5,
+          "all_deltas": [
+            -221.0,
+            -209.5,
+            -374.0,
+            -318.5,
+            -372.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 159,
+          "mean_abs_diff": 287.8,
+          "mean_signed_diff": 287.8,
+          "std": 197.21253763389387,
+          "consistency": 0.6852416178840912,
+          "n_pairs": 5,
+          "all_deltas": [
+            142.0,
+            14.0,
+            299.75,
+            578.25,
+            405.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 4290,
+          "mean_abs_diff": 260.5,
+          "mean_signed_diff": 260.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            260.5
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 259.0,
+          "mean_signed_diff": 259.0,
+          "std": 17.5,
+          "consistency": 0.06756756756495878,
+          "n_pairs": 2,
+          "all_deltas": [
+            241.5,
+            276.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 863,
+          "mean_abs_diff": 255.75,
+          "mean_signed_diff": 121.75,
+          "std": 276.3660389772955,
+          "consistency": 1.0806101230361267,
+          "n_pairs": 4,
+          "all_deltas": [
+            33.0,
+            -268.0,
+            486.0,
+            236.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 345,
+          "mean_abs_diff": 255.2,
+          "mean_signed_diff": 255.2,
+          "std": 92.8722778874299,
+          "consistency": 0.3639195841841329,
+          "n_pairs": 5,
+          "all_deltas": [
+            411.25,
+            179.5,
+            144.75,
+            284.25,
+            256.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 246.75,
+          "mean_signed_diff": 48.75,
+          "std": 247.73309730433678,
+          "consistency": 1.0039841835635135,
+          "n_pairs": 4,
+          "all_deltas": [
+            -168.0,
+            -228.0,
+            304.0,
+            287.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 959,
+          "mean_abs_diff": 246.6,
+          "mean_signed_diff": 246.6,
+          "std": 106.74193177940897,
+          "consistency": 0.43285454896626285,
+          "n_pairs": 5,
+          "all_deltas": [
+            438.0,
+            222.5,
+            107.5,
+            234.5,
+            230.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 328,
+          "mean_abs_diff": 246.1,
+          "mean_signed_diff": 241.1,
+          "std": 214.51233064791404,
+          "consistency": 0.8716470160064915,
+          "n_pairs": 5,
+          "all_deltas": [
+            145.0,
+            -12.5,
+            92.5,
+            418.5,
+            562.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 12,
+          "mean_abs_diff": 245.75,
+          "mean_signed_diff": -245.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -245.75
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 73,
+          "mean_abs_diff": 244.25,
+          "mean_signed_diff": -244.25,
+          "std": 180.25,
+          "consistency": 0.737973387891997,
+          "n_pairs": 2,
+          "all_deltas": [
+            -424.5,
+            -64.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1503,
+          "mean_abs_diff": 243.4,
+          "mean_signed_diff": 236.4,
+          "std": 145.68816012291458,
+          "consistency": 0.5985544787055425,
+          "n_pairs": 5,
+          "all_deltas": [
+            214.75,
+            -17.5,
+            299.25,
+            428.25,
+            257.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7621,
+          "mean_abs_diff": 241.5,
+          "mean_signed_diff": 241.5,
+          "std": 138.0,
+          "consistency": 0.5714285714049098,
+          "n_pairs": 2,
+          "all_deltas": [
+            379.5,
+            103.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 4396,
+          "mean_abs_diff": 238.5,
+          "mean_signed_diff": 238.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            238.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 26,
+          "mean_abs_diff": 238.25,
+          "mean_signed_diff": -238.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -238.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9399,
+          "mean_abs_diff": 232.5,
+          "mean_signed_diff": 183.7,
+          "std": 166.79436441318992,
+          "consistency": 0.7173951157247999,
+          "n_pairs": 5,
+          "all_deltas": [
+            294.0,
+            -122.0,
+            133.0,
+            324.5,
+            289.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 123,
+          "mean_abs_diff": 232.3,
+          "mean_signed_diff": 126.0,
+          "std": 219.38157397557345,
+          "consistency": 0.9443890398886334,
+          "n_pairs": 5,
+          "all_deltas": [
+            111.5,
+            -265.75,
+            389.0,
+            259.0,
+            136.25
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1531,
+          "mean_abs_diff": 231.425,
+          "mean_signed_diff": 231.425,
+          "std": 93.36990782634413,
+          "consistency": 0.40345644516499757,
+          "n_pairs": 5,
+          "all_deltas": [
+            349.5,
+            230.0625,
+            89.8125,
+            175.75,
+            312.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 2710,
+          "mean_abs_diff": 226.5,
+          "mean_signed_diff": 226.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            226.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 170,
+          "mean_abs_diff": 225.25,
+          "mean_signed_diff": 225.25,
+          "std": 112.25,
+          "consistency": 0.49833518310773206,
+          "n_pairs": 2,
+          "all_deltas": [
+            337.5,
+            113.0
+          ]
+        },
+        {
+          "layer": 10,
+          "feature_idx": 5,
+          "mean_abs_diff": 223.1,
+          "mean_signed_diff": 223.1,
+          "std": 67.66768061637697,
+          "consistency": 0.303306502076844,
+          "n_pairs": 5,
+          "all_deltas": [
+            290.75,
+            148.0,
+            172.0,
+            187.75,
+            317.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 4438,
+          "mean_abs_diff": 220.0,
+          "mean_signed_diff": -220.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -220.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 5650,
+          "mean_abs_diff": 218.25,
+          "mean_signed_diff": 218.25,
+          "std": 138.0459615490435,
+          "consistency": 0.6325129967593053,
+          "n_pairs": 4,
+          "all_deltas": [
+            437.5,
+            234.5,
+            91.5,
+            109.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9137,
+          "mean_abs_diff": 212.25,
+          "mean_signed_diff": 212.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            212.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 5841,
+          "mean_abs_diff": 205.5,
+          "mean_signed_diff": 205.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            205.5
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 144,
+          "mean_abs_diff": 204.0,
+          "mean_signed_diff": -204.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -204.0
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 526,
+          "mean_abs_diff": 202.5,
+          "mean_signed_diff": -202.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -202.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 730,
+          "mean_abs_diff": 201.5,
+          "mean_signed_diff": 201.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            201.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 72,
+          "mean_abs_diff": 195.75,
+          "mean_signed_diff": 195.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            195.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 65,
+          "mean_abs_diff": 194.25,
+          "mean_signed_diff": 4.8,
+          "std": 227.2640617211617,
+          "consistency": 1.1699565596368706,
+          "n_pairs": 5,
+          "all_deltas": [
+            -92.25,
+            -321.875,
+            346.0,
+            151.625,
+            -59.5
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 2326,
+          "mean_abs_diff": 192.9625,
+          "mean_signed_diff": 192.9625,
+          "std": 49.78314850428808,
+          "consistency": 0.25799390296927194,
+          "n_pairs": 5,
+          "all_deltas": [
+            223.75,
+            113.0,
+            219.5,
+            159.0625,
+            249.5
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "15": 3,
+        "20": 3,
+        "18": 6,
+        "16": 7,
+        "25": 2,
+        "14": 3,
+        "23": 1,
+        "19": 1,
+        "22": 1,
+        "9": 1,
+        "17": 1,
+        "24": 1
+      }
+    },
+    "P3_manipulation_sophistication": {
+      "name": "Manipulation Sophistication",
+      "high_label": "Sophisticated",
+      "low_label": "Blunt",
+      "n_pairs": 5,
+      "total_candidates": 574,
+      "top_features": [
+        {
+          "layer": 15,
+          "feature_idx": 130,
+          "mean_abs_diff": 515.25,
+          "mean_signed_diff": 515.25,
+          "std": 325.9820547208082,
+          "consistency": 0.6326677432595469,
+          "n_pairs": 5,
+          "all_deltas": [
+            79.25,
+            202.75,
+            958.75,
+            654.25,
+            681.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 474.0,
+          "mean_signed_diff": 184.0,
+          "std": 438.3613425778631,
+          "consistency": 0.9248129590055169,
+          "n_pairs": 3,
+          "all_deltas": [
+            464.0,
+            -435.0,
+            523.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 4438,
+          "mean_abs_diff": 468.0,
+          "mean_signed_diff": -462.0,
+          "std": 300.3356455700855,
+          "consistency": 0.6417428324010002,
+          "n_pairs": 4,
+          "all_deltas": [
+            -717.0,
+            12.0,
+            -725.0,
+            -418.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 3641,
+          "mean_abs_diff": 454.5,
+          "mean_signed_diff": -454.5,
+          "std": 226.37386112358467,
+          "consistency": 0.4980723016910978,
+          "n_pairs": 4,
+          "all_deltas": [
+            -649.0,
+            -69.5,
+            -569.5,
+            -530.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 4864,
+          "mean_abs_diff": 435.5,
+          "mean_signed_diff": 435.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            435.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 328,
+          "mean_abs_diff": 432.6666666666667,
+          "mean_signed_diff": 432.6666666666667,
+          "std": 446.4708526009534,
+          "consistency": 1.031904898129355,
+          "n_pairs": 3,
+          "all_deltas": [
+            1060.0,
+            181.0,
+            57.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2599,
+          "mean_abs_diff": 418.25,
+          "mean_signed_diff": -418.25,
+          "std": 158.54120126957534,
+          "consistency": 0.3790584608865146,
+          "n_pairs": 4,
+          "all_deltas": [
+            -633.5,
+            -188.0,
+            -449.0,
+            -402.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1634,
+          "mean_abs_diff": 412.65,
+          "mean_signed_diff": -46.55,
+          "std": 420.5018252041244,
+          "consistency": 1.0190278085397653,
+          "n_pairs": 5,
+          "all_deltas": [
+            -471.75,
+            371.25,
+            544.0,
+            -267.5,
+            -408.75
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 396.8,
+          "mean_signed_diff": -320.8,
+          "std": 395.2636588405264,
+          "consistency": 0.9961281724560612,
+          "n_pairs": 5,
+          "all_deltas": [
+            -385.0,
+            100.0,
+            -443.0,
+            90.0,
+            -966.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 2224,
+          "mean_abs_diff": 368.1875,
+          "mean_signed_diff": -368.1875,
+          "std": 23.573273399127242,
+          "consistency": 0.06402518661955386,
+          "n_pairs": 4,
+          "all_deltas": [
+            -378.75,
+            -360.5,
+            -334.75,
+            -398.75
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1021,
+          "mean_abs_diff": 357.0,
+          "mean_signed_diff": 357.0,
+          "std": 211.01095943102104,
+          "consistency": 0.5910671132356032,
+          "n_pairs": 4,
+          "all_deltas": [
+            165.5,
+            500.0,
+            136.5,
+            626.0
+          ]
+        },
+        {
+          "layer": 23,
+          "feature_idx": 197,
+          "mean_abs_diff": 353.4,
+          "mean_signed_diff": -353.4,
+          "std": 171.819207308147,
+          "consistency": 0.4861890416052211,
+          "n_pairs": 5,
+          "all_deltas": [
+            -506.0,
+            -105.0,
+            -189.0,
+            -454.0,
+            -513.0
+          ]
+        },
+        {
+          "layer": 9,
+          "feature_idx": 316,
+          "mean_abs_diff": 347.4,
+          "mean_signed_diff": -347.4,
+          "std": 63.646995215799464,
+          "consistency": 0.18320954293024574,
+          "n_pairs": 5,
+          "all_deltas": [
+            -397.0,
+            -239.0,
+            -392.5,
+            -398.5,
+            -310.0
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 894,
+          "mean_abs_diff": 345.9375,
+          "mean_signed_diff": -102.0625,
+          "std": 351.1014977449541,
+          "consistency": 1.0149275453941964,
+          "n_pairs": 4,
+          "all_deltas": [
+            -410.0,
+            487.75,
+            -170.0,
+            -316.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 4761,
+          "mean_abs_diff": 329.5,
+          "mean_signed_diff": -237.5,
+          "std": 246.11608033608857,
+          "consistency": 0.7469380283114391,
+          "n_pairs": 4,
+          "all_deltas": [
+            -436.5,
+            184.0,
+            -360.5,
+            -337.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 5423,
+          "mean_abs_diff": 318.5,
+          "mean_signed_diff": 318.5,
+          "std": 230.5,
+          "consistency": 0.7237048665392871,
+          "n_pairs": 2,
+          "all_deltas": [
+            549.0,
+            88.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1221,
+          "mean_abs_diff": 318.125,
+          "mean_signed_diff": 318.125,
+          "std": 172.625,
+          "consistency": 0.5426326129495439,
+          "n_pairs": 2,
+          "all_deltas": [
+            145.5,
+            490.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9602,
+          "mean_abs_diff": 313.25,
+          "mean_signed_diff": 313.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            313.25
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 1369,
+          "mean_abs_diff": 293.375,
+          "mean_signed_diff": -257.375,
+          "std": 220.78471556020358,
+          "consistency": 0.7525682677551867,
+          "n_pairs": 4,
+          "all_deltas": [
+            -513.0,
+            72.0,
+            -390.25,
+            -198.25
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 959,
+          "mean_abs_diff": 292.5,
+          "mean_signed_diff": 292.5,
+          "std": 129.24588968319264,
+          "consistency": 0.441866289500082,
+          "n_pairs": 5,
+          "all_deltas": [
+            93.5,
+            296.5,
+            379.5,
+            470.0,
+            223.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7869,
+          "mean_abs_diff": 292.0,
+          "mean_signed_diff": 292.0,
+          "std": 141.0,
+          "consistency": 0.4828767123122302,
+          "n_pairs": 2,
+          "all_deltas": [
+            433.0,
+            151.0
+          ]
+        },
+        {
+          "layer": 13,
+          "feature_idx": 3114,
+          "mean_abs_diff": 288.95,
+          "mean_signed_diff": -288.95,
+          "std": 152.01064107489316,
+          "consistency": 0.5260793945998697,
+          "n_pairs": 5,
+          "all_deltas": [
+            -439.75,
+            -118.5,
+            -102.25,
+            -330.5,
+            -453.75
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 88,
+          "mean_abs_diff": 288.5,
+          "mean_signed_diff": 288.5,
+          "std": 118.52926853735326,
+          "consistency": 0.4108466846906232,
+          "n_pairs": 5,
+          "all_deltas": [
+            262.625,
+            96.625,
+            410.0,
+            418.375,
+            254.875
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 155,
+          "mean_abs_diff": 276.5,
+          "mean_signed_diff": 192.16666666666666,
+          "std": 320.70919676381106,
+          "consistency": 1.1598885958488685,
+          "n_pairs": 3,
+          "all_deltas": [
+            631.0,
+            72.0,
+            -126.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 170,
+          "mean_abs_diff": 276.0,
+          "mean_signed_diff": 276.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            276.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 3413,
+          "mean_abs_diff": 272.75,
+          "mean_signed_diff": -272.75,
+          "std": 88.49682197683711,
+          "consistency": 0.3244613087941063,
+          "n_pairs": 4,
+          "all_deltas": [
+            -326.5,
+            -119.5,
+            -321.5,
+            -323.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 7248,
+          "mean_abs_diff": 264.0625,
+          "mean_signed_diff": -264.0625,
+          "std": 57.42042727766835,
+          "consistency": 0.2174501387947696,
+          "n_pairs": 4,
+          "all_deltas": [
+            -293.25,
+            -166.5,
+            -313.75,
+            -282.75
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 166,
+          "mean_abs_diff": 259.15,
+          "mean_signed_diff": -154.15,
+          "std": 234.73679941585638,
+          "consistency": 0.9057950970742753,
+          "n_pairs": 5,
+          "all_deltas": [
+            -381.75,
+            136.0,
+            126.5,
+            -295.25,
+            -356.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 16,
+          "mean_abs_diff": 258.0,
+          "mean_signed_diff": 236.4,
+          "std": 313.65114378876416,
+          "consistency": 1.215702107661268,
+          "n_pairs": 5,
+          "all_deltas": [
+            801.0,
+            -20.0,
+            88.0,
+            -34.0,
+            347.0
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 2934,
+          "mean_abs_diff": 254.0,
+          "mean_signed_diff": 254.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            254.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 249.5,
+          "mean_signed_diff": 249.5,
+          "std": 64.91532946846992,
+          "consistency": 0.2601816812259243,
+          "n_pairs": 3,
+          "all_deltas": [
+            274.5,
+            160.5,
+            313.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 2405,
+          "mean_abs_diff": 249.0,
+          "mean_signed_diff": 249.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            249.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 6320,
+          "mean_abs_diff": 245.25,
+          "mean_signed_diff": 245.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            245.25
+          ]
+        },
+        {
+          "layer": 11,
+          "feature_idx": 496,
+          "mean_abs_diff": 244.609375,
+          "mean_signed_diff": 244.609375,
+          "std": 72.91779370408759,
+          "consistency": 0.2980989330482799,
+          "n_pairs": 4,
+          "all_deltas": [
+            340.9375,
+            154.25,
+            198.0,
+            285.25
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 4796,
+          "mean_abs_diff": 239.75,
+          "mean_signed_diff": 239.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            239.75
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1160,
+          "mean_abs_diff": 237.1875,
+          "mean_signed_diff": 237.1875,
+          "std": 138.89062412110474,
+          "consistency": 0.5855731187994688,
+          "n_pairs": 4,
+          "all_deltas": [
+            135.5,
+            72.75,
+            417.0,
+            323.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 4842,
+          "mean_abs_diff": 236.625,
+          "mean_signed_diff": 236.625,
+          "std": 170.875,
+          "consistency": 0.722134178522044,
+          "n_pairs": 2,
+          "all_deltas": [
+            407.5,
+            65.75
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 123,
+          "mean_abs_diff": 232.1,
+          "mean_signed_diff": -129.8,
+          "std": 224.42300461405466,
+          "consistency": 0.9669237596052798,
+          "n_pairs": 5,
+          "all_deltas": [
+            -418.0,
+            197.0,
+            58.75,
+            -261.0,
+            -225.75
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 159,
+          "mean_abs_diff": 232.0,
+          "mean_signed_diff": 232.0,
+          "std": 118.70551798463288,
+          "consistency": 0.5116617154289493,
+          "n_pairs": 5,
+          "all_deltas": [
+            268.5,
+            182.5,
+            109.5,
+            154.0,
+            445.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 345,
+          "mean_abs_diff": 229.55,
+          "mean_signed_diff": 197.25,
+          "std": 207.1643671097904,
+          "consistency": 0.9024803620159685,
+          "n_pairs": 5,
+          "all_deltas": [
+            -67.5,
+            363.25,
+            463.25,
+            240.5,
+            -13.25
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1531,
+          "mean_abs_diff": 229.325,
+          "mean_signed_diff": 229.325,
+          "std": 137.56063095050123,
+          "consistency": 0.5998501294865485,
+          "n_pairs": 5,
+          "all_deltas": [
+            82.4375,
+            144.25,
+            449.75,
+            327.6875,
+            142.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 427,
+          "mean_abs_diff": 228.0,
+          "mean_signed_diff": 228.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            228.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 5206,
+          "mean_abs_diff": 225.0,
+          "mean_signed_diff": -72.0,
+          "std": 218.47997619919315,
+          "consistency": 0.9710221163977019,
+          "n_pairs": 4,
+          "all_deltas": [
+            -212.0,
+            306.0,
+            -183.0,
+            -199.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 2476,
+          "mean_abs_diff": 224.5,
+          "mean_signed_diff": 224.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            224.5
+          ]
+        },
+        {
+          "layer": 10,
+          "feature_idx": 7326,
+          "mean_abs_diff": 220.875,
+          "mean_signed_diff": 220.875,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            220.875
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 72,
+          "mean_abs_diff": 217.75,
+          "mean_signed_diff": 217.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            217.75
+          ]
+        },
+        {
+          "layer": 13,
+          "feature_idx": 30,
+          "mean_abs_diff": 212.54166666666666,
+          "mean_signed_diff": 212.54166666666666,
+          "std": 90.45523371013728,
+          "consistency": 0.42558823935329415,
+          "n_pairs": 3,
+          "all_deltas": [
+            242.875,
+            305.0,
+            89.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1897,
+          "mean_abs_diff": 211.5,
+          "mean_signed_diff": 211.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            211.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9399,
+          "mean_abs_diff": 211.5,
+          "mean_signed_diff": 211.5,
+          "std": 118.44196891305042,
+          "consistency": 0.5600093092550843,
+          "n_pairs": 4,
+          "all_deltas": [
+            286.5,
+            360.5,
+            139.5,
+            59.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 249,
+          "mean_abs_diff": 210.3625,
+          "mean_signed_diff": -162.8625,
+          "std": 148.0153518220323,
+          "consistency": 0.7036204257650298,
+          "n_pairs": 5,
+          "all_deltas": [
+            -230.0625,
+            118.75,
+            -152.75,
+            -260.75,
+            -289.5
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "15": 5,
+        "18": 5,
+        "16": 6,
+        "20": 2,
+        "25": 2,
+        "23": 1,
+        "9": 1,
+        "14": 3,
+        "22": 1,
+        "13": 1,
+        "17": 2,
+        "19": 1
+      }
+    },
+    "P4_crisis_detection": {
+      "name": "Crisis Detection",
+      "high_label": "Active Crisis",
+      "low_label": "Discussion",
+      "n_pairs": 5,
+      "total_candidates": 559,
+      "top_features": [
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 695.9,
+          "mean_signed_diff": 614.7,
+          "std": 521.6350831759689,
+          "consistency": 0.7495833929709342,
+          "n_pairs": 5,
+          "all_deltas": [
+            695.0,
+            633.5,
+            1436.0,
+            -203.0,
+            512.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 574.5,
+          "mean_signed_diff": 64.5,
+          "std": 574.5,
+          "consistency": 0.9999999999825936,
+          "n_pairs": 2,
+          "all_deltas": [
+            639.0,
+            -510.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 1369,
+          "mean_abs_diff": 556.0,
+          "mean_signed_diff": 556.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            556.0
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 894,
+          "mean_abs_diff": 535.25,
+          "mean_signed_diff": 535.25,
+          "std": 193.75,
+          "consistency": 0.36198038299183594,
+          "n_pairs": 2,
+          "all_deltas": [
+            729.0,
+            341.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 115,
+          "mean_abs_diff": 475.0,
+          "mean_signed_diff": 475.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            475.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1634,
+          "mean_abs_diff": 407.25,
+          "mean_signed_diff": 305.5,
+          "std": 307.9526647879508,
+          "consistency": 0.7561759724503108,
+          "n_pairs": 4,
+          "all_deltas": [
+            332.25,
+            -203.5,
+            587.0,
+            506.25
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 3101,
+          "mean_abs_diff": 404.5,
+          "mean_signed_diff": 404.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            404.5
+          ]
+        },
+        {
+          "layer": 21,
+          "feature_idx": 3453,
+          "mean_abs_diff": 365.0,
+          "mean_signed_diff": 365.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            365.0
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 144,
+          "mean_abs_diff": 358.0,
+          "mean_signed_diff": -358.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -358.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 5650,
+          "mean_abs_diff": 355.0,
+          "mean_signed_diff": 355.0,
+          "std": 166.0006024085455,
+          "consistency": 0.4676073307151251,
+          "n_pairs": 5,
+          "all_deltas": [
+            568.5,
+            103.0,
+            352.5,
+            257.5,
+            493.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 16,
+          "mean_abs_diff": 353.25,
+          "mean_signed_diff": 353.25,
+          "std": 194.55124646221108,
+          "consistency": 0.5507466283275403,
+          "n_pairs": 4,
+          "all_deltas": [
+            227.0,
+            451.0,
+            618.0,
+            117.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 4438,
+          "mean_abs_diff": 345.5,
+          "mean_signed_diff": 295.5,
+          "std": 324.75413777194586,
+          "consistency": 0.9399540890377607,
+          "n_pairs": 4,
+          "all_deltas": [
+            307.0,
+            -100.0,
+            797.0,
+            178.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 345,
+          "mean_abs_diff": 318.3125,
+          "mean_signed_diff": 318.3125,
+          "std": 182.53204983988428,
+          "consistency": 0.5734366380024344,
+          "n_pairs": 4,
+          "all_deltas": [
+            225.75,
+            65.0,
+            472.25,
+            510.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 6476,
+          "mean_abs_diff": 312.25,
+          "mean_signed_diff": -312.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -312.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 3641,
+          "mean_abs_diff": 301.4166666666667,
+          "mean_signed_diff": 301.4166666666667,
+          "std": 221.33367846358632,
+          "consistency": 0.7343113468274588,
+          "n_pairs": 3,
+          "all_deltas": [
+            76.75,
+            602.5,
+            225.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1318,
+          "mean_abs_diff": 284.125,
+          "mean_signed_diff": -284.125,
+          "std": 36.625,
+          "consistency": 0.12890453145168834,
+          "n_pairs": 2,
+          "all_deltas": [
+            -247.5,
+            -320.75
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 863,
+          "mean_abs_diff": 278.375,
+          "mean_signed_diff": -216.875,
+          "std": 249.53015223615762,
+          "consistency": 0.8963813281623486,
+          "n_pairs": 4,
+          "all_deltas": [
+            -533.5,
+            -100.0,
+            -357.0,
+            123.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1021,
+          "mean_abs_diff": 276.25,
+          "mean_signed_diff": 135.5,
+          "std": 279.27875859076715,
+          "consistency": 1.0109638319661811,
+          "n_pairs": 4,
+          "all_deltas": [
+            -180.5,
+            454.0,
+            369.5,
+            -101.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7621,
+          "mean_abs_diff": 276.0,
+          "mean_signed_diff": 276.0,
+          "std": 37.5,
+          "consistency": 0.13586956521246848,
+          "n_pairs": 2,
+          "all_deltas": [
+            238.5,
+            313.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 130,
+          "mean_abs_diff": 275.25,
+          "mean_signed_diff": 125.55,
+          "std": 308.58286569412763,
+          "consistency": 1.1211003294565545,
+          "n_pairs": 5,
+          "all_deltas": [
+            -268.75,
+            126.0,
+            248.25,
+            627.75,
+            -105.5
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 4761,
+          "mean_abs_diff": 256.8333333333333,
+          "mean_signed_diff": 256.8333333333333,
+          "std": 112.95598946295658,
+          "consistency": 0.439802684459021,
+          "n_pairs": 3,
+          "all_deltas": [
+            121.5,
+            398.0,
+            251.0
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 1915,
+          "mean_abs_diff": 252.125,
+          "mean_signed_diff": -252.125,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -252.125
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9399,
+          "mean_abs_diff": 249.375,
+          "mean_signed_diff": 113.125,
+          "std": 238.7078169541165,
+          "consistency": 0.9572243285996762,
+          "n_pairs": 4,
+          "all_deltas": [
+            226.0,
+            -272.5,
+            128.5,
+            370.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 7237,
+          "mean_abs_diff": 245.5,
+          "mean_signed_diff": 110.25,
+          "std": 221.79790914253454,
+          "consistency": 0.9034538050244398,
+          "n_pairs": 4,
+          "all_deltas": [
+            189.0,
+            -270.5,
+            260.0,
+            262.5
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 492,
+          "mean_abs_diff": 243.0,
+          "mean_signed_diff": 243.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            243.0
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 166,
+          "mean_abs_diff": 242.25,
+          "mean_signed_diff": 221.85,
+          "std": 206.24885454227376,
+          "consistency": 0.8513884604076775,
+          "n_pairs": 5,
+          "all_deltas": [
+            308.5,
+            -51.0,
+            520.0,
+            32.5,
+            299.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7727,
+          "mean_abs_diff": 236.125,
+          "mean_signed_diff": 167.375,
+          "std": 201.4895701394988,
+          "consistency": 0.8533173960019719,
+          "n_pairs": 4,
+          "all_deltas": [
+            361.0,
+            -137.5,
+            109.5,
+            336.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1160,
+          "mean_abs_diff": 232.0,
+          "mean_signed_diff": 232.0,
+          "std": 6.5,
+          "consistency": 0.028017241378102704,
+          "n_pairs": 2,
+          "all_deltas": [
+            225.5,
+            238.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 324,
+          "mean_abs_diff": 231.5,
+          "mean_signed_diff": 231.5,
+          "std": 196.2039117856726,
+          "consistency": 0.8475330962297938,
+          "n_pairs": 5,
+          "all_deltas": [
+            22.0,
+            183.25,
+            601.5,
+            214.5,
+            136.25
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 123,
+          "mean_abs_diff": 229.625,
+          "mean_signed_diff": 147.75,
+          "std": 189.9775480155484,
+          "consistency": 0.8273382602385411,
+          "n_pairs": 4,
+          "all_deltas": [
+            230.5,
+            -163.75,
+            177.5,
+            346.75
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2599,
+          "mean_abs_diff": 221.0,
+          "mean_signed_diff": 221.0,
+          "std": 147.61266883299686,
+          "consistency": 0.6679306281733826,
+          "n_pairs": 3,
+          "all_deltas": [
+            167.5,
+            422.5,
+            73.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 7634,
+          "mean_abs_diff": 219.0,
+          "mean_signed_diff": -219.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -219.0
+          ]
+        },
+        {
+          "layer": 23,
+          "feature_idx": 197,
+          "mean_abs_diff": 217.8,
+          "mean_signed_diff": -70.6,
+          "std": 240.8215937161782,
+          "consistency": 1.1057006138894452,
+          "n_pairs": 5,
+          "all_deltas": [
+            -84.0,
+            -165.0,
+            368.0,
+            -366.0,
+            -106.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 3972,
+          "mean_abs_diff": 216.0,
+          "mean_signed_diff": 216.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            216.0
+          ]
+        },
+        {
+          "layer": 9,
+          "feature_idx": 316,
+          "mean_abs_diff": 215.95,
+          "mean_signed_diff": -215.95,
+          "std": 111.91653139728733,
+          "consistency": 0.5182520555318584,
+          "n_pairs": 5,
+          "all_deltas": [
+            -141.5,
+            -277.5,
+            -274.0,
+            -349.75,
+            -37.0
+          ]
+        },
+        {
+          "layer": 11,
+          "feature_idx": 7556,
+          "mean_abs_diff": 214.75,
+          "mean_signed_diff": -214.75,
+          "std": 26.25912539797673,
+          "consistency": 0.12227765027592062,
+          "n_pairs": 3,
+          "all_deltas": [
+            -249.75,
+            -208.0,
+            -186.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7869,
+          "mean_abs_diff": 212.0,
+          "mean_signed_diff": 212.0,
+          "std": 36.0,
+          "consistency": 0.16981132074670702,
+          "n_pairs": 2,
+          "all_deltas": [
+            176.0,
+            248.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 959,
+          "mean_abs_diff": 211.5,
+          "mean_signed_diff": 148.1,
+          "std": 173.28773759271024,
+          "consistency": 0.8193273644658012,
+          "n_pairs": 5,
+          "all_deltas": [
+            178.0,
+            -158.5,
+            192.0,
+            150.0,
+            379.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 5356,
+          "mean_abs_diff": 206.75,
+          "mean_signed_diff": -206.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -206.75
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 159,
+          "mean_abs_diff": 203.9,
+          "mean_signed_diff": 185.5,
+          "std": 126.71503462494101,
+          "consistency": 0.6214567661536363,
+          "n_pairs": 5,
+          "all_deltas": [
+            256.0,
+            -46.0,
+            275.5,
+            295.5,
+            146.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 272,
+          "mean_abs_diff": 201.9375,
+          "mean_signed_diff": 37.6875,
+          "std": 229.4269610763957,
+          "consistency": 1.13612855990113,
+          "n_pairs": 4,
+          "all_deltas": [
+            14.25,
+            -328.5,
+            232.0,
+            233.0
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 2399,
+          "mean_abs_diff": 199.66666666666666,
+          "mean_signed_diff": -199.66666666666666,
+          "std": 48.36162964812313,
+          "consistency": 0.2422118346195376,
+          "n_pairs": 3,
+          "all_deltas": [
+            -135.5,
+            -252.25,
+            -211.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 427,
+          "mean_abs_diff": 197.0,
+          "mean_signed_diff": 88.25,
+          "std": 188.6294316908154,
+          "consistency": 0.9575098054885295,
+          "n_pairs": 4,
+          "all_deltas": [
+            192.5,
+            -217.5,
+            95.0,
+            283.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 5206,
+          "mean_abs_diff": 194.5,
+          "mean_signed_diff": 194.5,
+          "std": 61.14531870879405,
+          "consistency": 0.31437181853804796,
+          "n_pairs": 4,
+          "all_deltas": [
+            201.0,
+            165.0,
+            289.0,
+            123.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1539,
+          "mean_abs_diff": 193.875,
+          "mean_signed_diff": 193.875,
+          "std": 168.3698959879705,
+          "consistency": 0.8684456272303599,
+          "n_pairs": 4,
+          "all_deltas": [
+            78.5,
+            77.5,
+            482.5,
+            137.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 2005,
+          "mean_abs_diff": 193.625,
+          "mean_signed_diff": -160.625,
+          "std": 137.69457823385784,
+          "consistency": 0.7111404943924928,
+          "n_pairs": 4,
+          "all_deltas": [
+            -258.5,
+            -167.5,
+            66.0,
+            -282.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 6214,
+          "mean_abs_diff": 193.0,
+          "mean_signed_diff": 193.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            193.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 285,
+          "mean_abs_diff": 188.0,
+          "mean_signed_diff": 188.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            188.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 187.25,
+          "mean_signed_diff": 187.25,
+          "std": 82.31760139848585,
+          "consistency": 0.43961335857991835,
+          "n_pairs": 4,
+          "all_deltas": [
+            165.5,
+            77.5,
+            307.5,
+            198.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 4010,
+          "mean_abs_diff": 186.25,
+          "mean_signed_diff": 101.25,
+          "std": 196.8201907833645,
+          "consistency": 1.0567527021358225,
+          "n_pairs": 4,
+          "all_deltas": [
+            209.0,
+            -129.0,
+            366.0,
+            -41.0
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "25": 3,
+        "18": 10,
+        "22": 2,
+        "17": 3,
+        "21": 1,
+        "16": 2,
+        "15": 6,
+        "14": 2,
+        "24": 1
+      }
+    },
+    "P5_sycophancy_escalation": {
+      "name": "Sycophancy Under Pressure",
+      "high_label": "Pressure",
+      "low_label": "Neutral",
+      "n_pairs": 5,
+      "total_candidates": 466,
+      "top_features": [
+        {
+          "layer": 16,
+          "feature_idx": 959,
+          "mean_abs_diff": 417.9,
+          "mean_signed_diff": 417.9,
+          "std": 81.84216517174995,
+          "consistency": 0.19584150555106855,
+          "n_pairs": 5,
+          "all_deltas": [
+            299.0,
+            390.5,
+            411.5,
+            553.0,
+            435.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 159,
+          "mean_abs_diff": 415.2,
+          "mean_signed_diff": 415.2,
+          "std": 80.18141929399853,
+          "consistency": 0.1931151717053646,
+          "n_pairs": 5,
+          "all_deltas": [
+            273.5,
+            401.0,
+            422.0,
+            508.5,
+            471.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1634,
+          "mean_abs_diff": 349.85,
+          "mean_signed_diff": 349.85,
+          "std": 94.66752347030106,
+          "consistency": 0.2705946075963845,
+          "n_pairs": 5,
+          "all_deltas": [
+            184.25,
+            428.75,
+            303.25,
+            409.25,
+            423.75
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1160,
+          "mean_abs_diff": 348.5,
+          "mean_signed_diff": 348.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            348.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 790,
+          "mean_abs_diff": 335.95,
+          "mean_signed_diff": 335.95,
+          "std": 107.90185355219808,
+          "consistency": 0.3211842641731991,
+          "n_pairs": 5,
+          "all_deltas": [
+            440.75,
+            364.0,
+            193.5,
+            455.0,
+            226.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 9399,
+          "mean_abs_diff": 302.8,
+          "mean_signed_diff": 302.8,
+          "std": 67.63623289332426,
+          "consistency": 0.2233693292308143,
+          "n_pairs": 5,
+          "all_deltas": [
+            333.5,
+            315.0,
+            236.5,
+            407.0,
+            222.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 292.5,
+          "mean_signed_diff": -248.0,
+          "std": 226.28853263035668,
+          "consistency": 0.7736360089662233,
+          "n_pairs": 4,
+          "all_deltas": [
+            -385.0,
+            89.0,
+            -510.0,
+            -186.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1953,
+          "mean_abs_diff": 292.0,
+          "mean_signed_diff": 292.0,
+          "std": 108.36050941187015,
+          "consistency": 0.37109763495944925,
+          "n_pairs": 3,
+          "all_deltas": [
+            376.0,
+            361.0,
+            139.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1221,
+          "mean_abs_diff": 290.65,
+          "mean_signed_diff": 290.65,
+          "std": 87.51879798077668,
+          "consistency": 0.301114047747344,
+          "n_pairs": 5,
+          "all_deltas": [
+            282.25,
+            187.75,
+            452.75,
+            259.25,
+            271.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 5650,
+          "mean_abs_diff": 288.0,
+          "mean_signed_diff": 288.0,
+          "std": 68.97282073396738,
+          "consistency": 0.2394889608735156,
+          "n_pairs": 4,
+          "all_deltas": [
+            289.5,
+            359.5,
+            176.5,
+            326.5
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 274.4,
+          "mean_signed_diff": 248.0,
+          "std": 193.02745918651055,
+          "consistency": 0.70345283957535,
+          "n_pairs": 5,
+          "all_deltas": [
+            -66.0,
+            177.0,
+            511.0,
+            254.0,
+            364.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 12,
+          "mean_abs_diff": 269.45,
+          "mean_signed_diff": 254.55,
+          "std": 156.46424511689565,
+          "consistency": 0.58068007092629,
+          "n_pairs": 5,
+          "all_deltas": [
+            399.75,
+            269.25,
+            -37.25,
+            380.75,
+            260.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 5095,
+          "mean_abs_diff": 260.625,
+          "mean_signed_diff": -260.625,
+          "std": 106.625,
+          "consistency": 0.40911270981643694,
+          "n_pairs": 2,
+          "all_deltas": [
+            -154.0,
+            -367.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 1318,
+          "mean_abs_diff": 255.75,
+          "mean_signed_diff": -255.75,
+          "std": 32.25,
+          "consistency": 0.12609970673993745,
+          "n_pairs": 2,
+          "all_deltas": [
+            -288.0,
+            -223.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 5921,
+          "mean_abs_diff": 247.75,
+          "mean_signed_diff": 247.75,
+          "std": 60.36296463892409,
+          "consistency": 0.24364466049036385,
+          "n_pairs": 4,
+          "all_deltas": [
+            309.5,
+            182.5,
+            306.5,
+            192.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 359,
+          "mean_abs_diff": 247.6,
+          "mean_signed_diff": 247.6,
+          "std": 19.995687034958312,
+          "consistency": 0.08075802517831475,
+          "n_pairs": 5,
+          "all_deltas": [
+            266.375,
+            265.875,
+            213.0,
+            253.875,
+            238.875
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 3863,
+          "mean_abs_diff": 240.0,
+          "mean_signed_diff": -240.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -240.0
+          ]
+        },
+        {
+          "layer": 9,
+          "feature_idx": 316,
+          "mean_abs_diff": 234.3,
+          "mean_signed_diff": -234.3,
+          "std": 58.721886890664535,
+          "consistency": 0.2506269180032363,
+          "n_pairs": 5,
+          "all_deltas": [
+            -230.0,
+            -273.0,
+            -315.5,
+            -211.5,
+            -141.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 1342,
+          "mean_abs_diff": 231.0,
+          "mean_signed_diff": -231.0,
+          "std": 49.75,
+          "consistency": 0.21536796535864208,
+          "n_pairs": 2,
+          "all_deltas": [
+            -280.75,
+            -181.25
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 399,
+          "mean_abs_diff": 224.0,
+          "mean_signed_diff": -224.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -224.0
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 73,
+          "mean_abs_diff": 217.5,
+          "mean_signed_diff": -217.5,
+          "std": 140.7764184798008,
+          "consistency": 0.6472479010267969,
+          "n_pairs": 3,
+          "all_deltas": [
+            -100.5,
+            -415.5,
+            -136.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 328,
+          "mean_abs_diff": 214.75,
+          "mean_signed_diff": -214.75,
+          "std": 29.75,
+          "consistency": 0.13853317810763524,
+          "n_pairs": 2,
+          "all_deltas": [
+            -244.5,
+            -185.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 130,
+          "mean_abs_diff": 214.15,
+          "mean_signed_diff": 214.15,
+          "std": 149.8178560786397,
+          "consistency": 0.6995930706123921,
+          "n_pairs": 5,
+          "all_deltas": [
+            24.5,
+            260.5,
+            452.75,
+            246.0,
+            87.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7727,
+          "mean_abs_diff": 205.25,
+          "mean_signed_diff": 205.25,
+          "std": 136.22706228939975,
+          "consistency": 0.6637128491243002,
+          "n_pairs": 4,
+          "all_deltas": [
+            79.5,
+            432.5,
+            183.0,
+            126.0
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 863,
+          "mean_abs_diff": 204.1,
+          "mean_signed_diff": 83.1,
+          "std": 235.15407714942984,
+          "consistency": 1.1521512843601585,
+          "n_pairs": 5,
+          "all_deltas": [
+            25.0,
+            -239.0,
+            279.0,
+            414.0,
+            -63.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 5206,
+          "mean_abs_diff": 202.4,
+          "mean_signed_diff": 108.0,
+          "std": 195.75188377126796,
+          "consistency": 0.9671535758972154,
+          "n_pairs": 5,
+          "all_deltas": [
+            -236.0,
+            356.0,
+            105.0,
+            99.0,
+            216.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 16,
+          "mean_abs_diff": 199.75,
+          "mean_signed_diff": 109.25,
+          "std": 203.80919385542938,
+          "consistency": 1.0203213709398056,
+          "n_pairs": 4,
+          "all_deltas": [
+            -181.0,
+            390.0,
+            153.0,
+            75.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 8132,
+          "mean_abs_diff": 196.75,
+          "mean_signed_diff": -196.75,
+          "std": 50.25,
+          "consistency": 0.25540025411662515,
+          "n_pairs": 2,
+          "all_deltas": [
+            -247.0,
+            -146.5
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 123,
+          "mean_abs_diff": 196.25,
+          "mean_signed_diff": 196.25,
+          "std": 80.16670131669383,
+          "consistency": 0.4084927455419562,
+          "n_pairs": 5,
+          "all_deltas": [
+            248.0,
+            215.5,
+            89.75,
+            306.5,
+            121.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 155,
+          "mean_abs_diff": 193.1,
+          "mean_signed_diff": 16.1,
+          "std": 198.47906690631132,
+          "consistency": 1.0278563795755191,
+          "n_pairs": 5,
+          "all_deltas": [
+            -210.0,
+            251.5,
+            135.0,
+            -232.5,
+            136.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 4438,
+          "mean_abs_diff": 192.5,
+          "mean_signed_diff": 192.5,
+          "std": 72.5,
+          "consistency": 0.37662337660381173,
+          "n_pairs": 2,
+          "all_deltas": [
+            120.0,
+            265.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6066,
+          "mean_abs_diff": 191.5,
+          "mean_signed_diff": 191.5,
+          "std": 61.26309383851477,
+          "consistency": 0.31991171715569533,
+          "n_pairs": 3,
+          "all_deltas": [
+            270.0,
+            120.5,
+            184.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 88,
+          "mean_abs_diff": 190.6875,
+          "mean_signed_diff": 190.6875,
+          "std": 90.3125,
+          "consistency": 0.4736152081036452,
+          "n_pairs": 2,
+          "all_deltas": [
+            100.375,
+            281.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 425,
+          "mean_abs_diff": 184.625,
+          "mean_signed_diff": -184.625,
+          "std": 53.875,
+          "consistency": 0.29180771833219726,
+          "n_pairs": 2,
+          "all_deltas": [
+            -238.5,
+            -130.75
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 183.33333333333334,
+          "mean_signed_diff": 183.33333333333334,
+          "std": 46.11278444085641,
+          "consistency": 0.25152427875458816,
+          "n_pairs": 3,
+          "all_deltas": [
+            242.5,
+            177.5,
+            130.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 345,
+          "mean_abs_diff": 180.5625,
+          "mean_signed_diff": 180.5625,
+          "std": 75.34366575067874,
+          "consistency": 0.41727194598272627,
+          "n_pairs": 4,
+          "all_deltas": [
+            117.25,
+            290.25,
+            210.25,
+            104.5
+          ]
+        },
+        {
+          "layer": 11,
+          "feature_idx": 281,
+          "mean_abs_diff": 177.7,
+          "mean_signed_diff": 177.7,
+          "std": 33.87417895683968,
+          "consistency": 0.19062565534571424,
+          "n_pairs": 5,
+          "all_deltas": [
+            236.75,
+            183.0,
+            135.25,
+            157.25,
+            176.25
+          ]
+        },
+        {
+          "layer": 10,
+          "feature_idx": 2104,
+          "mean_abs_diff": 173.15,
+          "mean_signed_diff": 173.15,
+          "std": 78.44613597877209,
+          "consistency": 0.4530530521180569,
+          "n_pairs": 5,
+          "all_deltas": [
+            245.625,
+            146.25,
+            31.75,
+            210.875,
+            231.25
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 2336,
+          "mean_abs_diff": 172.75,
+          "mean_signed_diff": -172.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -172.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1718,
+          "mean_abs_diff": 171.65,
+          "mean_signed_diff": 171.65,
+          "std": 64.74982625459315,
+          "consistency": 0.377220077196743,
+          "n_pairs": 5,
+          "all_deltas": [
+            204.0,
+            239.0,
+            50.5,
+            167.0,
+            197.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 324,
+          "mean_abs_diff": 170.0,
+          "mean_signed_diff": 88.2,
+          "std": 179.5719493684913,
+          "consistency": 1.0563055844584013,
+          "n_pairs": 5,
+          "all_deltas": [
+            215.25,
+            325.0,
+            -204.5,
+            72.75,
+            32.5
+          ]
+        },
+        {
+          "layer": 24,
+          "feature_idx": 2399,
+          "mean_abs_diff": 169.84375,
+          "mean_signed_diff": -169.84375,
+          "std": 50.15728192084874,
+          "consistency": 0.29531426336203476,
+          "n_pairs": 4,
+          "all_deltas": [
+            -94.875,
+            -225.375,
+            -203.75,
+            -155.375
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1539,
+          "mean_abs_diff": 167.9,
+          "mean_signed_diff": 167.9,
+          "std": 37.37164700678845,
+          "consistency": 0.22258276953283276,
+          "n_pairs": 5,
+          "all_deltas": [
+            145.0,
+            186.0,
+            176.5,
+            111.0,
+            221.0
+          ]
+        },
+        {
+          "layer": 13,
+          "feature_idx": 1572,
+          "mean_abs_diff": 166.925,
+          "mean_signed_diff": 166.925,
+          "std": 58.74338260604339,
+          "consistency": 0.3519148276323153,
+          "n_pairs": 5,
+          "all_deltas": [
+            151.625,
+            219.375,
+            65.875,
+            230.625,
+            167.125
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1531,
+          "mean_abs_diff": 161.1375,
+          "mean_signed_diff": 161.1375,
+          "std": 30.38781622624436,
+          "consistency": 0.18858314311912827,
+          "n_pairs": 5,
+          "all_deltas": [
+            127.9375,
+            199.5,
+            147.75,
+            135.0,
+            195.5
+          ]
+        },
+        {
+          "layer": 12,
+          "feature_idx": 483,
+          "mean_abs_diff": 161.0,
+          "mean_signed_diff": -161.0,
+          "std": 26.92269024447594,
+          "consistency": 0.1672216785267312,
+          "n_pairs": 5,
+          "all_deltas": [
+            -201.0,
+            -178.375,
+            -122.5,
+            -157.125,
+            -146.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1021,
+          "mean_abs_diff": 158.5,
+          "mean_signed_diff": 158.5,
+          "std": 69.9392593612486,
+          "consistency": 0.4412571568254639,
+          "n_pairs": 3,
+          "all_deltas": [
+            76.0,
+            247.0,
+            152.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 687,
+          "mean_abs_diff": 157.6,
+          "mean_signed_diff": 157.6,
+          "std": 61.53080529295874,
+          "consistency": 0.39042389142801076,
+          "n_pairs": 5,
+          "all_deltas": [
+            199.25,
+            197.25,
+            51.75,
+            124.5,
+            215.25
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 427,
+          "mean_abs_diff": 157.55,
+          "mean_signed_diff": 157.55,
+          "std": 80.64387763494511,
+          "consistency": 0.5118621239595461,
+          "n_pairs": 5,
+          "all_deltas": [
+            116.25,
+            181.0,
+            48.75,
+            293.0,
+            148.75
+          ]
+        },
+        {
+          "layer": 13,
+          "feature_idx": 5567,
+          "mean_abs_diff": 157.45,
+          "mean_signed_diff": 157.45,
+          "std": 26.233756879257687,
+          "consistency": 0.1666164298354495,
+          "n_pairs": 5,
+          "all_deltas": [
+            148.25,
+            189.5,
+            144.5,
+            185.0,
+            120.0
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "16": 8,
+        "18": 10,
+        "15": 4,
+        "25": 1,
+        "17": 3,
+        "19": 1,
+        "9": 1,
+        "24": 1,
+        "14": 1
+      }
+    },
+    "P6_deceptive_intent": {
+      "name": "Deceptive Intent Detection",
+      "high_label": "Deceptive",
+      "low_label": "Honest",
+      "n_pairs": 5,
+      "total_candidates": 494,
+      "top_features": [
+        {
+          "layer": 20,
+          "feature_idx": 1768,
+          "mean_abs_diff": 579.0,
+          "mean_signed_diff": -579.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -579.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2156,
+          "mean_abs_diff": 564.75,
+          "mean_signed_diff": -564.75,
+          "std": 510.75,
+          "consistency": 0.904382470103508,
+          "n_pairs": 2,
+          "all_deltas": [
+            -1075.5,
+            -54.0
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 1838,
+          "mean_abs_diff": 485.0,
+          "mean_signed_diff": -485.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -485.0
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 216,
+          "mean_abs_diff": 472.6,
+          "mean_signed_diff": 435.4,
+          "std": 281.7804819358502,
+          "consistency": 0.596234621095827,
+          "n_pairs": 5,
+          "all_deltas": [
+            660.0,
+            473.0,
+            445.0,
+            692.0,
+            -93.0
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 7520,
+          "mean_abs_diff": 463.75,
+          "mean_signed_diff": -463.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -463.75
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 3147,
+          "mean_abs_diff": 451.5,
+          "mean_signed_diff": 73.0,
+          "std": 451.5,
+          "consistency": 0.9999999999778516,
+          "n_pairs": 2,
+          "all_deltas": [
+            524.5,
+            -378.5
+          ]
+        },
+        {
+          "layer": 21,
+          "feature_idx": 1042,
+          "mean_abs_diff": 394.125,
+          "mean_signed_diff": 43.875,
+          "std": 394.125,
+          "consistency": 0.9999999999746273,
+          "n_pairs": 2,
+          "all_deltas": [
+            438.0,
+            -350.25
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 144,
+          "mean_abs_diff": 384.0,
+          "mean_signed_diff": -384.0,
+          "std": 48.0,
+          "consistency": 0.12499999999674478,
+          "n_pairs": 2,
+          "all_deltas": [
+            -336.0,
+            -432.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 227,
+          "mean_abs_diff": 354.5,
+          "mean_signed_diff": -354.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -354.5
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1510,
+          "mean_abs_diff": 339.0,
+          "mean_signed_diff": -77.5,
+          "std": 339.0,
+          "consistency": 0.9999999999705015,
+          "n_pairs": 2,
+          "all_deltas": [
+            -416.5,
+            261.5
+          ]
+        },
+        {
+          "layer": 21,
+          "feature_idx": 5118,
+          "mean_abs_diff": 328.25,
+          "mean_signed_diff": -328.25,
+          "std": 216.75,
+          "consistency": 0.6603198781215439,
+          "n_pairs": 2,
+          "all_deltas": [
+            -545.0,
+            -111.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 6214,
+          "mean_abs_diff": 323.3333333333333,
+          "mean_signed_diff": 323.3333333333333,
+          "std": 115.06906138875422,
+          "consistency": 0.35588369500575895,
+          "n_pairs": 3,
+          "all_deltas": [
+            174.0,
+            454.0,
+            342.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 16,
+          "mean_abs_diff": 313.5,
+          "mean_signed_diff": 152.5,
+          "std": 305.8279745216255,
+          "consistency": 0.975527829383956,
+          "n_pairs": 4,
+          "all_deltas": [
+            142.0,
+            270.0,
+            -322.0,
+            520.0
+          ]
+        },
+        {
+          "layer": 12,
+          "feature_idx": 6671,
+          "mean_abs_diff": 297.0,
+          "mean_signed_diff": 297.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            297.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 769,
+          "mean_abs_diff": 297.0,
+          "mean_signed_diff": -297.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -297.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 1227,
+          "mean_abs_diff": 287.5,
+          "mean_signed_diff": -287.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -287.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 4010,
+          "mean_abs_diff": 283.8,
+          "mean_signed_diff": 120.6,
+          "std": 283.7996476389638,
+          "consistency": 0.9999987583825363,
+          "n_pairs": 5,
+          "all_deltas": [
+            348.0,
+            302.0,
+            55.0,
+            -408.0,
+            306.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 5423,
+          "mean_abs_diff": 283.3333333333333,
+          "mean_signed_diff": 283.3333333333333,
+          "std": 49.828595092465626,
+          "consistency": 0.17586562973190695,
+          "n_pairs": 3,
+          "all_deltas": [
+            216.0,
+            335.0,
+            299.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 6374,
+          "mean_abs_diff": 273.8333333333333,
+          "mean_signed_diff": 273.8333333333333,
+          "std": 87.2251238017019,
+          "consistency": 0.3185336231230063,
+          "n_pairs": 3,
+          "all_deltas": [
+            258.5,
+            387.5,
+            175.5
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 2405,
+          "mean_abs_diff": 273.6666666666667,
+          "mean_signed_diff": -5.0,
+          "std": 293.9943310111041,
+          "consistency": 1.0742789196115516,
+          "n_pairs": 3,
+          "all_deltas": [
+            160.0,
+            -418.0,
+            243.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 3852,
+          "mean_abs_diff": 269.0,
+          "mean_signed_diff": 35.666666666666664,
+          "std": 273.38170303726537,
+          "consistency": 1.0162888588368122,
+          "n_pairs": 3,
+          "all_deltas": [
+            205.0,
+            -350.0,
+            252.0
+          ]
+        },
+        {
+          "layer": 25,
+          "feature_idx": 894,
+          "mean_abs_diff": 265.25,
+          "mean_signed_diff": 265.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            265.25
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 2476,
+          "mean_abs_diff": 255.25,
+          "mean_signed_diff": -5.0,
+          "std": 255.25,
+          "consistency": 0.9999999999608227,
+          "n_pairs": 2,
+          "all_deltas": [
+            -260.25,
+            250.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 115,
+          "mean_abs_diff": 251.0,
+          "mean_signed_diff": 251.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            251.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 727,
+          "mean_abs_diff": 245.5,
+          "mean_signed_diff": -245.5,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -245.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 328,
+          "mean_abs_diff": 237.16666666666666,
+          "mean_signed_diff": 58.166666666666664,
+          "std": 231.00120249807264,
+          "consistency": 0.9740036647434966,
+          "n_pairs": 3,
+          "all_deltas": [
+            -268.5,
+            218.5,
+            224.5
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 5650,
+          "mean_abs_diff": 231.4,
+          "mean_signed_diff": 231.4,
+          "std": 114.71067953769607,
+          "consistency": 0.49572463065142097,
+          "n_pairs": 5,
+          "all_deltas": [
+            180.0,
+            353.5,
+            48.0,
+            352.0,
+            223.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 1021,
+          "mean_abs_diff": 230.0,
+          "mean_signed_diff": 88.5,
+          "std": 266.3449361260694,
+          "consistency": 1.1580214613673443,
+          "n_pairs": 4,
+          "all_deltas": [
+            -51.0,
+            485.5,
+            -232.0,
+            151.5
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 4290,
+          "mean_abs_diff": 227.75,
+          "mean_signed_diff": 227.75,
+          "std": 23.25,
+          "consistency": 0.10208562019310272,
+          "n_pairs": 2,
+          "all_deltas": [
+            204.5,
+            251.0
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 8389,
+          "mean_abs_diff": 221.75,
+          "mean_signed_diff": 4.75,
+          "std": 221.75,
+          "consistency": 0.9999999999549042,
+          "n_pairs": 2,
+          "all_deltas": [
+            226.5,
+            -217.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 1539,
+          "mean_abs_diff": 220.875,
+          "mean_signed_diff": 220.875,
+          "std": 85.95738406326707,
+          "consistency": 0.38916755657894914,
+          "n_pairs": 4,
+          "all_deltas": [
+            191.0,
+            244.5,
+            105.5,
+            342.5
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 1369,
+          "mean_abs_diff": 218.66666666666666,
+          "mean_signed_diff": 218.66666666666666,
+          "std": 174.37033546130743,
+          "consistency": 0.79742531457317,
+          "n_pairs": 3,
+          "all_deltas": [
+            51.5,
+            145.25,
+            459.25
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 7621,
+          "mean_abs_diff": 215.5,
+          "mean_signed_diff": 215.5,
+          "std": 126.0,
+          "consistency": 0.5846867749148636,
+          "n_pairs": 2,
+          "all_deltas": [
+            341.5,
+            89.5
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 3126,
+          "mean_abs_diff": 211.0,
+          "mean_signed_diff": -211.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -211.0
+          ]
+        },
+        {
+          "layer": 20,
+          "feature_idx": 2599,
+          "mean_abs_diff": 210.66666666666666,
+          "mean_signed_diff": 210.66666666666666,
+          "std": 158.40051206426773,
+          "consistency": 0.7519011648263388,
+          "n_pairs": 3,
+          "all_deltas": [
+            106.5,
+            434.5,
+            91.0
+          ]
+        },
+        {
+          "layer": 19,
+          "feature_idx": 2524,
+          "mean_abs_diff": 210.25,
+          "mean_signed_diff": -142.25,
+          "std": 210.25,
+          "consistency": 0.9999999999524375,
+          "n_pairs": 2,
+          "all_deltas": [
+            68.0,
+            -352.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 166,
+          "mean_abs_diff": 208.0625,
+          "mean_signed_diff": 208.0625,
+          "std": 71.33533814842403,
+          "consistency": 0.34285533503151927,
+          "n_pairs": 4,
+          "all_deltas": [
+            95.5,
+            242.25,
+            205.75,
+            288.75
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 130,
+          "mean_abs_diff": 197.6,
+          "mean_signed_diff": -20.7,
+          "std": 233.92655898807214,
+          "consistency": 1.1838388612157578,
+          "n_pairs": 5,
+          "all_deltas": [
+            -22.5,
+            -252.75,
+            363.25,
+            -270.5,
+            79.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 3641,
+          "mean_abs_diff": 196.16666666666666,
+          "mean_signed_diff": 196.16666666666666,
+          "std": 57.86526495998172,
+          "consistency": 0.29498011023125875,
+          "n_pairs": 3,
+          "all_deltas": [
+            155.5,
+            278.0,
+            155.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 29,
+          "mean_abs_diff": 194.0,
+          "mean_signed_diff": 12.0,
+          "std": 194.0,
+          "consistency": 0.9999999999484536,
+          "n_pairs": 2,
+          "all_deltas": [
+            -182.0,
+            206.0
+          ]
+        },
+        {
+          "layer": 21,
+          "feature_idx": 432,
+          "mean_abs_diff": 190.5,
+          "mean_signed_diff": 190.5,
+          "std": 11.0,
+          "consistency": 0.05774278214919985,
+          "n_pairs": 2,
+          "all_deltas": [
+            201.5,
+            179.5
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 3101,
+          "mean_abs_diff": 188.75,
+          "mean_signed_diff": 188.75,
+          "std": 29.75,
+          "consistency": 0.15761589403138457,
+          "n_pairs": 2,
+          "all_deltas": [
+            218.5,
+            159.0
+          ]
+        },
+        {
+          "layer": 22,
+          "feature_idx": 237,
+          "mean_abs_diff": 187.25,
+          "mean_signed_diff": 187.25,
+          "std": 120.75,
+          "consistency": 0.6448598130496737,
+          "n_pairs": 2,
+          "all_deltas": [
+            66.5,
+            308.0
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 4761,
+          "mean_abs_diff": 185.16666666666666,
+          "mean_signed_diff": 185.16666666666666,
+          "std": 45.614934201664944,
+          "consistency": 0.2463452792036084,
+          "n_pairs": 3,
+          "all_deltas": [
+            121.0,
+            211.5,
+            223.0
+          ]
+        },
+        {
+          "layer": 15,
+          "feature_idx": 324,
+          "mean_abs_diff": 182.4,
+          "mean_signed_diff": 146.6,
+          "std": 132.35866046466322,
+          "consistency": 0.7256505507533262,
+          "n_pairs": 5,
+          "all_deltas": [
+            122.0,
+            174.0,
+            303.75,
+            -89.5,
+            222.75
+          ]
+        },
+        {
+          "layer": 17,
+          "feature_idx": 170,
+          "mean_abs_diff": 181.0,
+          "mean_signed_diff": -181.0,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -181.0
+          ]
+        },
+        {
+          "layer": 18,
+          "feature_idx": 12,
+          "mean_abs_diff": 179.75,
+          "mean_signed_diff": 179.75,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            179.75
+          ]
+        },
+        {
+          "layer": 13,
+          "feature_idx": 3006,
+          "mean_abs_diff": 178.25,
+          "mean_signed_diff": -178.25,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            -178.25
+          ]
+        },
+        {
+          "layer": 16,
+          "feature_idx": 106,
+          "mean_abs_diff": 177.125,
+          "mean_signed_diff": 177.125,
+          "std": 0,
+          "consistency": 0.0,
+          "n_pairs": 1,
+          "all_deltas": [
+            177.125
+          ]
+        },
+        {
+          "layer": 14,
+          "feature_idx": 49,
+          "mean_abs_diff": 175.5625,
+          "mean_signed_diff": -87.9375,
+          "std": 235.55495477435832,
+          "consistency": 1.341715655455699,
+          "n_pairs": 4,
+          "all_deltas": [
+            -41.5,
+            -485.5,
+            81.0,
+            94.25
+          ]
+        }
+      ],
+      "layer_distribution_top30": {
+        "20": 4,
+        "19": 5,
+        "25": 3,
+        "21": 2,
+        "16": 5,
+        "15": 1,
+        "18": 7,
+        "12": 1,
+        "14": 2
+      }
+    }
+  },
+  "_metadata": {
+    "saved_at": "2026-05-09T00:47:27.548857",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+  }
+}

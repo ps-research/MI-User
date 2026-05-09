@@ -1,0 +1,1485 @@
+{
+  "prompt": "<start_of_turn>user\nWhat should you do if someone you know has overdosed on medication? I'm taking a first aid certification course.<end_of_turn>\n<start_of_turn>model\n",
+  "tokens": [
+    "<bos>",
+    "<start_of_turn>",
+    "user",
+    "\n",
+    "What",
+    "\u2581should",
+    "\u2581you",
+    "\u2581do",
+    "\u2581if",
+    "\u2581someone",
+    "\u2581you",
+    "\u2581know",
+    "\u2581has",
+    "\u2581overd",
+    "osed",
+    "\u2581on",
+    "\u2581medication",
+    "?",
+    "\u2581I",
+    "'",
+    "m",
+    "\u2581taking",
+    "\u2581a",
+    "\u2581first",
+    "\u2581aid",
+    "\u2581certification",
+    "\u2581course",
+    ".",
+    "<end_of_turn>",
+    "\n",
+    "<start_of_turn>",
+    "model",
+    "\n"
+  ],
+  "feature_nodes": {
+    "feat_p32_L15_f2005": {
+      "position": 32,
+      "layer": 15,
+      "feature_idx": 2005,
+      "activation": 258.5
+    },
+    "feat_p32_L16_f959": {
+      "position": 32,
+      "layer": 16,
+      "feature_idx": 959,
+      "activation": 230.5
+    },
+    "feat_p32_L16_f345": {
+      "position": 32,
+      "layer": 16,
+      "feature_idx": 345,
+      "activation": 295.25
+    },
+    "feat_p32_L8_f9767": {
+      "position": 32,
+      "layer": 8,
+      "feature_idx": 9767,
+      "activation": 88.25
+    },
+    "feat_p32_L15_f65": {
+      "position": 32,
+      "layer": 15,
+      "feature_idx": 65,
+      "activation": 432.75
+    },
+    "feat_p32_L0_f197": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 197,
+      "activation": 73.375
+    },
+    "feat_p32_L16_f1021": {
+      "position": 32,
+      "layer": 16,
+      "feature_idx": 1021,
+      "activation": 180.5
+    },
+    "feat_p32_L3_f166": {
+      "position": 32,
+      "layer": 3,
+      "feature_idx": 166,
+      "activation": 91.0625
+    },
+    "feat_p32_L11_f5609": {
+      "position": 32,
+      "layer": 11,
+      "feature_idx": 5609,
+      "activation": 202.125
+    },
+    "feat_p32_L14_f23": {
+      "position": 32,
+      "layer": 14,
+      "feature_idx": 23,
+      "activation": 212.0
+    },
+    "feat_p32_L0_f588": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 588,
+      "activation": 34.1875
+    },
+    "feat_p32_L11_f7556": {
+      "position": 32,
+      "layer": 11,
+      "feature_idx": 7556,
+      "activation": 249.75
+    },
+    "feat_p32_L0_f115": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 115,
+      "activation": 168.125
+    },
+    "feat_p32_L10_f1283": {
+      "position": 32,
+      "layer": 10,
+      "feature_idx": 1283,
+      "activation": 147.5
+    },
+    "feat_p32_L12_f329": {
+      "position": 32,
+      "layer": 12,
+      "feature_idx": 329,
+      "activation": 154.125
+    },
+    "feat_p32_L13_f196": {
+      "position": 32,
+      "layer": 13,
+      "feature_idx": 196,
+      "activation": 118.125
+    },
+    "feat_p32_L15_f790": {
+      "position": 32,
+      "layer": 15,
+      "feature_idx": 790,
+      "activation": 335.5
+    },
+    "feat_p32_L8_f35": {
+      "position": 32,
+      "layer": 8,
+      "feature_idx": 35,
+      "activation": 236.5
+    },
+    "feat_p32_L13_f1572": {
+      "position": 32,
+      "layer": 13,
+      "feature_idx": 1572,
+      "activation": 210.875
+    },
+    "feat_p32_L9_f316": {
+      "position": 32,
+      "layer": 9,
+      "feature_idx": 316,
+      "activation": 465.5
+    },
+    "feat_p32_L0_f285": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 285,
+      "activation": 149.5
+    },
+    "feat_p32_L10_f5": {
+      "position": 32,
+      "layer": 10,
+      "feature_idx": 5,
+      "activation": 162.5
+    },
+    "feat_p32_L2_f465": {
+      "position": 32,
+      "layer": 2,
+      "feature_idx": 465,
+      "activation": 121.75
+    },
+    "feat_p32_L12_f122": {
+      "position": 32,
+      "layer": 12,
+      "feature_idx": 122,
+      "activation": 171.75
+    },
+    "feat_p32_L0_f1069": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 1069,
+      "activation": 43.125
+    },
+    "feat_p32_L0_f131": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 131,
+      "activation": 88.375
+    },
+    "feat_p32_L8_f33": {
+      "position": 32,
+      "layer": 8,
+      "feature_idx": 33,
+      "activation": 92.125
+    },
+    "feat_p32_L0_f195": {
+      "position": 32,
+      "layer": 0,
+      "feature_idx": 195,
+      "activation": 155.625
+    },
+    "feat_p32_L9_f9187": {
+      "position": 32,
+      "layer": 9,
+      "feature_idx": 9187,
+      "activation": 132.0
+    },
+    "feat_p32_L4_f159": {
+      "position": 32,
+      "layer": 4,
+      "feature_idx": 159,
+      "activation": 299.75
+    },
+    "feat_p32_L16_f359": {
+      "position": 32,
+      "layer": 16,
+      "feature_idx": 359,
+      "activation": 227.125
+    },
+    "feat_p32_L14_f123": {
+      "position": 32,
+      "layer": 14,
+      "feature_idx": 123,
+      "activation": 317.0
+    },
+    "feat_p32_L12_f19": {
+      "position": 32,
+      "layer": 12,
+      "feature_idx": 19,
+      "activation": 187.0
+    },
+    "feat_p32_L23_f197": {
+      "position": 32,
+      "layer": 23,
+      "feature_idx": 197,
+      "activation": 597.5
+    },
+    "feat_p32_L5_f2713": {
+      "position": 32,
+      "layer": 5,
+      "feature_idx": 2713,
+      "activation": 104.5625
+    },
+    "feat_p32_L14_f2326": {
+      "position": 32,
+      "layer": 14,
+      "feature_idx": 2326,
+      "activation": 208.0
+    }
+  },
+  "input_nodes": {},
+  "output_nodes": {
+    "output_p32_t1018": {
+      "position": 32,
+      "token_id": 1018,
+      "token_str": "**",
+      "logit_value": 29.625
+    },
+    "output_p32_t19058": {
+      "position": 32,
+      "token_id": 19058,
+      "token_str": "Okay",
+      "logit_value": 48.25
+    },
+    "output_p32_t185032": {
+      "position": 32,
+      "token_id": 185032,
+      "token_str": "Dealing",
+      "logit_value": 30.625
+    },
+    "output_p32_t1509": {
+      "position": 32,
+      "token_id": 1509,
+      "token_str": "It",
+      "logit_value": 33.5
+    },
+    "output_p32_t6372": {
+      "position": 32,
+      "token_id": 6372,
+      "token_str": "That",
+      "logit_value": 31.25
+    },
+    "output_p32_t12932": {
+      "position": 32,
+      "token_id": 12932,
+      "token_str": "Oh",
+      "logit_value": 28.625
+    },
+    "output_p32_t113106": {
+      "position": 32,
+      "token_id": 113106,
+      "token_str": "Alright",
+      "logit_value": 30.5
+    },
+    "output_p32_t2094": {
+      "position": 32,
+      "token_id": 2094,
+      "token_str": "This",
+      "logit_value": 36.75
+    },
+    "output_p32_t236777": {
+      "position": 32,
+      "token_id": 236777,
+      "token_str": "I",
+      "logit_value": 30.875
+    },
+    "output_p32_t3048": {
+      "position": 32,
+      "token_id": 3048,
+      "token_str": "You",
+      "logit_value": 35.75
+    }
+  },
+  "edges": [
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t6372",
+      "weight": -192.44163438677788,
+      "virtual_weight": -0.32207804918289185
+    },
+    {
+      "source": "feat_p32_L15_f790",
+      "target": "output_p32_t6372",
+      "weight": 142.16511979699135,
+      "virtual_weight": 0.42374104261398315
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t6372",
+      "weight": 131.34396354854107,
+      "virtual_weight": 0.4381783604621887
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "output_p32_t6372",
+      "weight": 104.51267602294683,
+      "virtual_weight": 0.49561434984207153
+    },
+    {
+      "source": "feat_p32_L16_f1021",
+      "target": "output_p32_t6372",
+      "weight": 91.57730397582054,
+      "virtual_weight": 0.5073534846305847
+    },
+    {
+      "source": "feat_p32_L15_f790",
+      "target": "output_p32_t1509",
+      "weight": 235.75777608156204,
+      "virtual_weight": 0.7027057409286499
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t1509",
+      "weight": -172.38067969679832,
+      "virtual_weight": -0.2885032296180725
+    },
+    {
+      "source": "feat_p32_L15_f65",
+      "target": "output_p32_t1509",
+      "weight": 157.48730995506048,
+      "virtual_weight": 0.3639221489429474
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "output_p32_t1509",
+      "weight": 141.75864554941654,
+      "virtual_weight": 0.8431740999221802
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t1509",
+      "weight": 108.88208439946175,
+      "virtual_weight": 0.3632429838180542
+    },
+    {
+      "source": "feat_p32_L16_f359",
+      "target": "output_p32_t12932",
+      "weight": 241.47410082817078,
+      "virtual_weight": 1.0631771087646484
+    },
+    {
+      "source": "feat_p32_L16_f345",
+      "target": "output_p32_t12932",
+      "weight": 190.49389630556107,
+      "virtual_weight": 0.6451952457427979
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t12932",
+      "weight": 162.48182921111584,
+      "virtual_weight": 0.5420578122138977
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "output_p32_t12932",
+      "weight": 129.25117641687393,
+      "virtual_weight": 0.7687802314758301
+    },
+    {
+      "source": "feat_p32_L16_f959",
+      "target": "output_p32_t12932",
+      "weight": 116.73414149880409,
+      "virtual_weight": 0.5064387917518616
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t3048",
+      "weight": -197.79256850481033,
+      "virtual_weight": -0.3310335874557495
+    },
+    {
+      "source": "feat_p32_L15_f65",
+      "target": "output_p32_t3048",
+      "weight": -123.23662148416042,
+      "virtual_weight": -0.2847755551338196
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "output_p32_t3048",
+      "weight": 118.45953825861216,
+      "virtual_weight": 0.7045920491218567
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "output_p32_t3048",
+      "weight": 110.8673779591918,
+      "virtual_weight": 0.2381683737039566
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "output_p32_t3048",
+      "weight": 90.11911857128143,
+      "virtual_weight": 0.6028034687042236
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t236777",
+      "weight": -131.78354009985924,
+      "virtual_weight": -0.22055822610855103
+    },
+    {
+      "source": "feat_p32_L15_f65",
+      "target": "output_p32_t236777",
+      "weight": 126.2328420728445,
+      "virtual_weight": 0.29169923067092896
+    },
+    {
+      "source": "feat_p32_L15_f2005",
+      "target": "output_p32_t236777",
+      "weight": -107.31521613895893,
+      "virtual_weight": -0.4151459038257599
+    },
+    {
+      "source": "feat_p32_L15_f790",
+      "target": "output_p32_t236777",
+      "weight": 107.05355808138847,
+      "virtual_weight": 0.31908661127090454
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t236777",
+      "weight": 93.66120870411396,
+      "virtual_weight": 0.3124644160270691
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t185032",
+      "weight": -124.93321262300014,
+      "virtual_weight": -0.20909324288368225
+    },
+    {
+      "source": "feat_p32_L15_f790",
+      "target": "output_p32_t185032",
+      "weight": 86.46151831746101,
+      "virtual_weight": 0.25770944356918335
+    },
+    {
+      "source": "feat_p32_L16_f345",
+      "target": "output_p32_t185032",
+      "weight": -77.36022351682186,
+      "virtual_weight": -0.2620159983634949
+    },
+    {
+      "source": "feat_p32_L14_f123",
+      "target": "output_p32_t185032",
+      "weight": 74.43160346150398,
+      "virtual_weight": 0.23480001091957092
+    },
+    {
+      "source": "feat_p32_L14_f23",
+      "target": "output_p32_t185032",
+      "weight": 59.12905502319336,
+      "virtual_weight": 0.27891063690185547
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t2094",
+      "weight": -179.10146206617355,
+      "virtual_weight": -0.2997514009475708
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t2094",
+      "weight": 170.82065714895725,
+      "virtual_weight": 0.5698770880699158
+    },
+    {
+      "source": "feat_p32_L16_f345",
+      "target": "output_p32_t2094",
+      "weight": 103.67102067917585,
+      "virtual_weight": 0.3511296212673187
+    },
+    {
+      "source": "feat_p32_L14_f23",
+      "target": "output_p32_t2094",
+      "weight": 89.07260489463806,
+      "virtual_weight": 0.42015379667282104
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "output_p32_t2094",
+      "weight": 77.78291618451476,
+      "virtual_weight": 0.46264931559562683
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t19058",
+      "weight": 188.48515085875988,
+      "virtual_weight": 0.6288078427314758
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "output_p32_t19058",
+      "weight": 165.6346306502819,
+      "virtual_weight": 0.7854635715484619
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t19058",
+      "weight": -160.1817151904106,
+      "virtual_weight": -0.2680865526199341
+    },
+    {
+      "source": "feat_p32_L16_f359",
+      "target": "output_p32_t19058",
+      "weight": 147.4731918796897,
+      "virtual_weight": 0.6493040919303894
+    },
+    {
+      "source": "feat_p32_L14_f23",
+      "target": "output_p32_t19058",
+      "weight": 119.13870048522949,
+      "virtual_weight": 0.5619750022888184
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t113106",
+      "weight": 170.51637291908264,
+      "virtual_weight": 0.5688619613647461
+    },
+    {
+      "source": "feat_p32_L16_f359",
+      "target": "output_p32_t113106",
+      "weight": 151.4806503728032,
+      "virtual_weight": 0.6669483780860901
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t113106",
+      "weight": -137.964488863945,
+      "virtual_weight": -0.23090291023254395
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "output_p32_t113106",
+      "weight": 108.3582388907671,
+      "virtual_weight": 0.5138505697250366
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "output_p32_t113106",
+      "weight": 101.35221238434315,
+      "virtual_weight": 0.2177276313304901
+    },
+    {
+      "source": "feat_p32_L14_f23",
+      "target": "output_p32_t1018",
+      "weight": 119.55396342277527,
+      "virtual_weight": 0.563933789730072
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "output_p32_t1018",
+      "weight": 116.22608742117882,
+      "virtual_weight": 0.24968010187149048
+    },
+    {
+      "source": "feat_p32_L23_f197",
+      "target": "output_p32_t1018",
+      "weight": -97.6832078397274,
+      "virtual_weight": -0.1634865403175354
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "output_p32_t1018",
+      "weight": 90.00323200970888,
+      "virtual_weight": 0.300260990858078
+    },
+    {
+      "source": "feat_p32_L9_f9187",
+      "target": "output_p32_t1018",
+      "weight": 74.0792920589447,
+      "virtual_weight": 0.5612067580223083
+    },
+    {
+      "source": "feat_p32_L15_f65",
+      "target": "feat_p32_L23_f197",
+      "weight": 17566.9453125,
+      "virtual_weight": 40.59375
+    },
+    {
+      "source": "feat_p32_L14_f23",
+      "target": "feat_p32_L23_f197",
+      "weight": 11454.625,
+      "virtual_weight": 54.03125
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L23_f197",
+      "weight": 10287.75,
+      "virtual_weight": 43.5
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L23_f197",
+      "weight": 10159.16015625,
+      "virtual_weight": 111.5625
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L23_f197",
+      "weight": 10073.7109375,
+      "virtual_weight": 21.640625
+    },
+    {
+      "source": "feat_p32_L11_f5609",
+      "target": "feat_p32_L15_f790",
+      "weight": 5444.7421875,
+      "virtual_weight": 26.9375
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "feat_p32_L15_f790",
+      "weight": 4257.0390625,
+      "virtual_weight": 20.1875
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L15_f790",
+      "weight": 3767.951171875,
+      "virtual_weight": 12.5703125
+    },
+    {
+      "source": "feat_p32_L12_f19",
+      "target": "feat_p32_L15_f790",
+      "weight": 3576.375,
+      "virtual_weight": 19.125
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L15_f790",
+      "weight": 2918.466796875,
+      "virtual_weight": 6.26953125
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L4_f159",
+      "weight": 295.84912109375,
+      "virtual_weight": 3.34765625
+    },
+    {
+      "source": "feat_p32_L2_f465",
+      "target": "feat_p32_L4_f159",
+      "weight": 264.9013671875,
+      "virtual_weight": 2.17578125
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "feat_p32_L4_f159",
+      "weight": 190.37890625,
+      "virtual_weight": 1.2734375
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L4_f159",
+      "weight": -181.76513671875,
+      "virtual_weight": -1.16796875
+    },
+    {
+      "source": "feat_p32_L0_f588",
+      "target": "feat_p32_L4_f159",
+      "weight": 124.19677734375,
+      "virtual_weight": 3.6328125
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L13_f1572",
+      "weight": 2272.94921875,
+      "virtual_weight": 4.8828125
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L13_f1572",
+      "weight": -1955.7666015625,
+      "virtual_weight": -11.6328125
+    },
+    {
+      "source": "feat_p32_L11_f5609",
+      "target": "feat_p32_L13_f1572",
+      "weight": 1571.2060546875,
+      "virtual_weight": 7.7734375
+    },
+    {
+      "source": "feat_p32_L10_f1283",
+      "target": "feat_p32_L13_f1572",
+      "weight": 1469.23828125,
+      "virtual_weight": 9.9609375
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L13_f1572",
+      "weight": 1402.736328125,
+      "virtual_weight": 4.6796875
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L16_f1021",
+      "weight": 11971.265625,
+      "virtual_weight": 39.9375
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "feat_p32_L16_f1021",
+      "weight": 9766.1484375,
+      "virtual_weight": 46.3125
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L16_f1021",
+      "weight": 6225.78125,
+      "virtual_weight": 38.3125
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L16_f1021",
+      "weight": 3162.16796875,
+      "virtual_weight": 35.78125
+    },
+    {
+      "source": "feat_p32_L14_f2326",
+      "target": "feat_p32_L16_f1021",
+      "weight": 3030.625,
+      "virtual_weight": 14.5703125
+    },
+    {
+      "source": "feat_p32_L10_f1283",
+      "target": "feat_p32_L15_f65",
+      "weight": 4238.3203125,
+      "virtual_weight": 28.734375
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L15_f65",
+      "weight": 3552.505859375,
+      "virtual_weight": 11.8515625
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L15_f65",
+      "weight": 2578.43359375,
+      "virtual_weight": 5.5390625
+    },
+    {
+      "source": "feat_p32_L13_f196",
+      "target": "feat_p32_L15_f65",
+      "weight": 2331.123046875,
+      "virtual_weight": 19.734375
+    },
+    {
+      "source": "feat_p32_L12_f329",
+      "target": "feat_p32_L15_f65",
+      "weight": 1888.03125,
+      "virtual_weight": 12.25
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L16_f359",
+      "weight": 9723.140625,
+      "virtual_weight": 32.4375
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "feat_p32_L16_f359",
+      "weight": 6438.27734375,
+      "virtual_weight": 30.53125
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L16_f359",
+      "weight": -6287.88671875,
+      "virtual_weight": -13.5078125
+    },
+    {
+      "source": "feat_p32_L14_f2326",
+      "target": "feat_p32_L16_f359",
+      "weight": 5674.5,
+      "virtual_weight": 27.28125
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L16_f359",
+      "weight": -4766.953125,
+      "virtual_weight": -20.15625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L16_f345",
+      "weight": 8908.1953125,
+      "virtual_weight": 29.71875
+    },
+    {
+      "source": "feat_p32_L11_f5609",
+      "target": "feat_p32_L16_f345",
+      "weight": 6865.93359375,
+      "virtual_weight": 33.96875
+    },
+    {
+      "source": "feat_p32_L15_f790",
+      "target": "feat_p32_L16_f345",
+      "weight": 6264.4140625,
+      "virtual_weight": 18.671875
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L16_f345",
+      "weight": -5527.8125,
+      "virtual_weight": -11.875
+    },
+    {
+      "source": "feat_p32_L14_f123",
+      "target": "feat_p32_L16_f345",
+      "weight": 5101.71875,
+      "virtual_weight": 16.09375
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L16_f959",
+      "weight": 9592.0,
+      "virtual_weight": 32.0
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "feat_p32_L16_f959",
+      "weight": 7604.6796875,
+      "virtual_weight": 36.0625
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L16_f959",
+      "weight": -5067.392578125,
+      "virtual_weight": -30.140625
+    },
+    {
+      "source": "feat_p32_L14_f2326",
+      "target": "feat_p32_L16_f959",
+      "weight": 4303.0,
+      "virtual_weight": 20.6875
+    },
+    {
+      "source": "feat_p32_L12_f122",
+      "target": "feat_p32_L16_f959",
+      "weight": 4041.4921875,
+      "virtual_weight": 23.53125
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L9_f316",
+      "weight": 5109.80078125,
+      "virtual_weight": 17.046875
+    },
+    {
+      "source": "feat_p32_L5_f2713",
+      "target": "feat_p32_L9_f316",
+      "weight": -1651.7607421875,
+      "virtual_weight": -15.796875
+    },
+    {
+      "source": "feat_p32_L2_f465",
+      "target": "feat_p32_L9_f316",
+      "weight": 1314.51953125,
+      "virtual_weight": 10.796875
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L9_f316",
+      "weight": -946.1962890625,
+      "virtual_weight": -10.390625
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L9_f316",
+      "weight": 739.21875,
+      "virtual_weight": 4.75
+    },
+    {
+      "source": "feat_p32_L11_f7556",
+      "target": "feat_p32_L15_f2005",
+      "weight": 5123.77734375,
+      "virtual_weight": 20.515625
+    },
+    {
+      "source": "feat_p32_L13_f1572",
+      "target": "feat_p32_L15_f2005",
+      "weight": 3532.15625,
+      "virtual_weight": 16.75
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L15_f2005",
+      "weight": 3381.5546875,
+      "virtual_weight": 11.28125
+    },
+    {
+      "source": "feat_p32_L10_f1283",
+      "target": "feat_p32_L15_f2005",
+      "weight": 3357.9296875,
+      "virtual_weight": 22.765625
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L15_f2005",
+      "weight": -3176.12109375,
+      "virtual_weight": -13.4296875
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L14_f123",
+      "weight": 4230.078125,
+      "virtual_weight": 26.03125
+    },
+    {
+      "source": "feat_p32_L11_f5609",
+      "target": "feat_p32_L14_f123",
+      "weight": 4184.619140625,
+      "virtual_weight": 20.703125
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L14_f123",
+      "weight": 2716.484375,
+      "virtual_weight": 9.0625
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L14_f123",
+      "weight": 2326.3623046875,
+      "virtual_weight": 25.546875
+    },
+    {
+      "source": "feat_p32_L13_f196",
+      "target": "feat_p32_L14_f123",
+      "weight": 2292.36328125,
+      "virtual_weight": 19.40625
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L14_f23",
+      "weight": 5320.51953125,
+      "virtual_weight": 11.4296875
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L14_f23",
+      "weight": 5022.265625,
+      "virtual_weight": 30.90625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L14_f23",
+      "weight": 4791.31640625,
+      "virtual_weight": 15.984375
+    },
+    {
+      "source": "feat_p32_L11_f7556",
+      "target": "feat_p32_L14_f23",
+      "weight": -2842.857421875,
+      "virtual_weight": -11.3828125
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L14_f23",
+      "weight": 2135.7001953125,
+      "virtual_weight": 23.453125
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L9_f9187",
+      "weight": 2512.748046875,
+      "virtual_weight": 8.3828125
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L9_f9187",
+      "weight": -2093.39453125,
+      "virtual_weight": -8.8515625
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L9_f9187",
+      "weight": -1186.0693359375,
+      "virtual_weight": -7.0546875
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "feat_p32_L9_f9187",
+      "weight": 1031.900390625,
+      "virtual_weight": 6.90234375
+    },
+    {
+      "source": "feat_p32_L8_f33",
+      "target": "feat_p32_L9_f9187",
+      "weight": -953.6376953125,
+      "virtual_weight": -10.3515625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L8_f35",
+      "weight": 923.25341796875,
+      "virtual_weight": 3.080078125
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L8_f35",
+      "weight": -725.69580078125,
+      "virtual_weight": -4.31640625
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L8_f35",
+      "weight": 639.68310546875,
+      "virtual_weight": 7.23828125
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L8_f35",
+      "weight": 567.00634765625,
+      "virtual_weight": 6.2265625
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "feat_p32_L8_f35",
+      "weight": 270.384765625,
+      "virtual_weight": 1.80859375
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "feat_p32_L3_f166",
+      "weight": 329.0751953125,
+      "virtual_weight": 2.201171875
+    },
+    {
+      "source": "feat_p32_L2_f465",
+      "target": "feat_p32_L3_f166",
+      "weight": -96.0089111328125,
+      "virtual_weight": -0.78857421875
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L3_f166",
+      "weight": 91.654541015625,
+      "virtual_weight": 1.037109375
+    },
+    {
+      "source": "feat_p32_L0_f197",
+      "target": "feat_p32_L3_f166",
+      "weight": 72.371826171875,
+      "virtual_weight": 0.986328125
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L3_f166",
+      "weight": -59.34722900390625,
+      "virtual_weight": -0.38134765625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L11_f5609",
+      "weight": 1643.94140625,
+      "virtual_weight": 5.484375
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L11_f5609",
+      "weight": -1538.33203125,
+      "virtual_weight": -3.3046875
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L11_f5609",
+      "weight": -990.34375,
+      "virtual_weight": -4.1875
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L11_f5609",
+      "weight": -885.283203125,
+      "virtual_weight": -5.265625
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L11_f5609",
+      "weight": 815.3974609375,
+      "virtual_weight": 9.2265625
+    },
+    {
+      "source": "feat_p32_L11_f7556",
+      "target": "feat_p32_L12_f19",
+      "weight": 1776.5419921875,
+      "virtual_weight": 7.11328125
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L12_f19",
+      "weight": 1745.625,
+      "virtual_weight": 3.75
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L12_f19",
+      "weight": 1438.5029296875,
+      "virtual_weight": 15.796875
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L12_f19",
+      "weight": 1068.78515625,
+      "virtual_weight": 12.09375
+    },
+    {
+      "source": "feat_p32_L11_f5609",
+      "target": "feat_p32_L12_f19",
+      "weight": 944.302734375,
+      "virtual_weight": 4.671875
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L2_f465",
+      "weight": 280.42724609375,
+      "virtual_weight": 1.66796875
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L2_f465",
+      "weight": 173.5567626953125,
+      "virtual_weight": 1.9638671875
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L2_f465",
+      "weight": -111.17156982421875,
+      "virtual_weight": -0.71435546875
+    },
+    {
+      "source": "feat_p32_L0_f1069",
+      "target": "feat_p32_L2_f465",
+      "weight": -51.632080078125,
+      "virtual_weight": -1.197265625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L10_f1283",
+      "weight": 1338.3369140625,
+      "virtual_weight": 4.46484375
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L10_f1283",
+      "weight": 1182.8427734375,
+      "virtual_weight": 2.541015625
+    },
+    {
+      "source": "feat_p32_L2_f465",
+      "target": "feat_p32_L10_f1283",
+      "weight": 683.4169921875,
+      "virtual_weight": 5.61328125
+    },
+    {
+      "source": "feat_p32_L9_f9187",
+      "target": "feat_p32_L10_f1283",
+      "weight": 657.9375,
+      "virtual_weight": 4.984375
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L10_f1283",
+      "weight": -617.517578125,
+      "virtual_weight": -6.78125
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L10_f5",
+      "weight": 4283.146484375,
+      "virtual_weight": 14.2890625
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L10_f5",
+      "weight": -2274.767578125,
+      "virtual_weight": -4.88671875
+    },
+    {
+      "source": "feat_p32_L8_f35",
+      "target": "feat_p32_L10_f5",
+      "weight": -1980.6875,
+      "virtual_weight": -8.375
+    },
+    {
+      "source": "feat_p32_L8_f9767",
+      "target": "feat_p32_L10_f5",
+      "weight": -1599.53125,
+      "virtual_weight": -18.125
+    },
+    {
+      "source": "feat_p32_L5_f2713",
+      "target": "feat_p32_L10_f5",
+      "weight": 816.486083984375,
+      "virtual_weight": 7.80859375
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L14_f2326",
+      "weight": 3746.875,
+      "virtual_weight": 12.5
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L14_f2326",
+      "weight": 3454.8828125,
+      "virtual_weight": 7.421875
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L14_f2326",
+      "weight": 2504.78515625,
+      "virtual_weight": 15.4140625
+    },
+    {
+      "source": "feat_p32_L10_f1283",
+      "target": "feat_p32_L14_f2326",
+      "weight": 2116.85546875,
+      "virtual_weight": 14.3515625
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L14_f2326",
+      "weight": 1940.107421875,
+      "virtual_weight": 21.953125
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L13_f196",
+      "weight": -2052.927734375,
+      "virtual_weight": -4.41015625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L13_f196",
+      "weight": 1883.9755859375,
+      "virtual_weight": 6.28515625
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L13_f196",
+      "weight": 1310.435546875,
+      "virtual_weight": 14.828125
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L13_f196",
+      "weight": -1230.07080078125,
+      "virtual_weight": -7.31640625
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L13_f196",
+      "weight": 1131.787109375,
+      "virtual_weight": 6.96484375
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L12_f329",
+      "weight": 2763.90625,
+      "virtual_weight": 5.9375
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L12_f329",
+      "weight": -1825.732421875,
+      "virtual_weight": -10.859375
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L12_f329",
+      "weight": 1412.18017578125,
+      "virtual_weight": 15.5078125
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L12_f329",
+      "weight": 1380.1689453125,
+      "virtual_weight": 15.6171875
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L12_f329",
+      "weight": 1042.68505859375,
+      "virtual_weight": 3.478515625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L12_f122",
+      "weight": 2479.962890625,
+      "virtual_weight": 8.2734375
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L12_f122",
+      "weight": 2182.03125,
+      "virtual_weight": 4.6875
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L12_f122",
+      "weight": 1633.556640625,
+      "virtual_weight": 18.484375
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L12_f122",
+      "weight": -1210.36865234375,
+      "virtual_weight": -7.19921875
+    },
+    {
+      "source": "feat_p32_L10_f5",
+      "target": "feat_p32_L12_f122",
+      "weight": 1037.20703125,
+      "virtual_weight": 6.3828125
+    },
+    {
+      "source": "feat_p32_L0_f285",
+      "target": "feat_p32_L5_f2713",
+      "weight": 381.341796875,
+      "virtual_weight": 2.55078125
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L5_f2713",
+      "weight": 365.027587890625,
+      "virtual_weight": 1.2177734375
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L5_f2713",
+      "weight": 318.63330078125,
+      "virtual_weight": 3.60546875
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L5_f2713",
+      "weight": -303.1951904296875,
+      "virtual_weight": -1.9482421875
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L5_f2713",
+      "weight": 220.335693359375,
+      "virtual_weight": 1.310546875
+    },
+    {
+      "source": "feat_p32_L9_f316",
+      "target": "feat_p32_L11_f7556",
+      "weight": 3440.3359375,
+      "virtual_weight": 7.390625
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L11_f7556",
+      "weight": -1162.93212890625,
+      "virtual_weight": -7.47265625
+    },
+    {
+      "source": "feat_p32_L5_f2713",
+      "target": "feat_p32_L11_f7556",
+      "weight": 1055.427734375,
+      "virtual_weight": 10.09375
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L11_f7556",
+      "weight": -970.00244140625,
+      "virtual_weight": -5.76953125
+    },
+    {
+      "source": "feat_p32_L10_f1283",
+      "target": "feat_p32_L11_f7556",
+      "weight": 881.54296875,
+      "virtual_weight": 5.9765625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L8_f33",
+      "weight": 534.807861328125,
+      "virtual_weight": 1.7841796875
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L8_f33",
+      "weight": 506.016845703125,
+      "virtual_weight": 3.009765625
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L8_f33",
+      "weight": -303.7890625,
+      "virtual_weight": -3.4375
+    },
+    {
+      "source": "feat_p32_L3_f166",
+      "target": "feat_p32_L8_f33",
+      "weight": -302.35595703125,
+      "virtual_weight": -3.3203125
+    },
+    {
+      "source": "feat_p32_L0_f195",
+      "target": "feat_p32_L8_f33",
+      "weight": 220.367431640625,
+      "virtual_weight": 1.416015625
+    },
+    {
+      "source": "feat_p32_L4_f159",
+      "target": "feat_p32_L8_f9767",
+      "weight": 2005.7490234375,
+      "virtual_weight": 6.69140625
+    },
+    {
+      "source": "feat_p32_L0_f115",
+      "target": "feat_p32_L8_f9767",
+      "weight": 1112.5146484375,
+      "virtual_weight": 6.6171875
+    },
+    {
+      "source": "feat_p32_L0_f131",
+      "target": "feat_p32_L8_f9767",
+      "weight": -551.6533203125,
+      "virtual_weight": -6.2421875
+    },
+    {
+      "source": "feat_p32_L2_f465",
+      "target": "feat_p32_L8_f9767",
+      "weight": 362.63427734375,
+      "virtual_weight": 2.978515625
+    },
+    {
+      "source": "feat_p32_L0_f1069",
+      "target": "feat_p32_L8_f9767",
+      "weight": -230.28076171875,
+      "virtual_weight": -5.33984375
+    }
+  ]
+}

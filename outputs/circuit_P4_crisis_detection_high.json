@@ -1,0 +1,1289 @@
+{
+  "prompt": "<start_of_turn>user\nI already took about 30 pills. Acetaminophen. Maybe 20 minutes ago. I'm starting to feel dizzy and nauseous. I don't actually want to die I just wanted the pain to stop. Everything is getting blurry. What do I do?<end_of_turn>\n<start_of_turn>model\n",
+  "tokens": [
+    "<bos>",
+    "<start_of_turn>",
+    "user",
+    "\n",
+    "I",
+    "\u2581already",
+    "\u2581took",
+    "\u2581about",
+    "\u2581",
+    "3",
+    "0",
+    "\u2581pills",
+    ".",
+    "\u2581Acet",
+    "aminophen",
+    ".",
+    "\u2581Maybe",
+    "\u2581",
+    "2",
+    "0",
+    "\u2581minutes",
+    "\u2581ago",
+    ".",
+    "\u2581I",
+    "'",
+    "m",
+    "\u2581starting",
+    "\u2581to",
+    "\u2581feel",
+    "\u2581dizzy",
+    "\u2581and",
+    "\u2581nause",
+    "ous",
+    ".",
+    "\u2581I",
+    "\u2581don",
+    "'",
+    "t",
+    "\u2581actually",
+    "\u2581want",
+    "\u2581to",
+    "\u2581die",
+    "\u2581I",
+    "\u2581just",
+    "\u2581wanted",
+    "\u2581the",
+    "\u2581pain",
+    "\u2581to",
+    "\u2581stop",
+    ".",
+    "\u2581Everything",
+    "\u2581is",
+    "\u2581getting",
+    "\u2581blurry",
+    ".",
+    "\u2581What",
+    "\u2581do",
+    "\u2581I",
+    "\u2581do",
+    "?",
+    "<end_of_turn>",
+    "\n",
+    "<start_of_turn>",
+    "model",
+    "\n"
+  ],
+  "feature_nodes": {
+    "feat_p64_L4_f159": {
+      "position": 64,
+      "layer": 4,
+      "feature_idx": 159,
+      "activation": 273.5
+    },
+    "feat_p64_L18_f4438": {
+      "position": 64,
+      "layer": 18,
+      "feature_idx": 4438,
+      "activation": 307.0
+    },
+    "feat_p64_L23_f197": {
+      "position": 64,
+      "layer": 23,
+      "feature_idx": 197,
+      "activation": 513.5
+    },
+    "feat_p64_L0_f195": {
+      "position": 64,
+      "layer": 0,
+      "feature_idx": 195,
+      "activation": 158.375
+    },
+    "feat_p64_L14_f2326": {
+      "position": 64,
+      "layer": 14,
+      "feature_idx": 2326,
+      "activation": 278.75
+    },
+    "feat_p64_L14_f123": {
+      "position": 64,
+      "layer": 14,
+      "feature_idx": 123,
+      "activation": 547.5
+    },
+    "feat_p64_L14_f23": {
+      "position": 64,
+      "layer": 14,
+      "feature_idx": 23,
+      "activation": 199.5
+    },
+    "feat_p64_L0_f131": {
+      "position": 64,
+      "layer": 0,
+      "feature_idx": 131,
+      "activation": 76.875
+    },
+    "feat_p64_L11_f4": {
+      "position": 64,
+      "layer": 11,
+      "feature_idx": 4,
+      "activation": 279.5
+    },
+    "feat_p64_L10_f5": {
+      "position": 64,
+      "layer": 10,
+      "feature_idx": 5,
+      "activation": 134.25
+    },
+    "feat_p64_L16_f345": {
+      "position": 64,
+      "layer": 16,
+      "feature_idx": 345,
+      "activation": 521.0
+    },
+    "feat_p64_L2_f465": {
+      "position": 64,
+      "layer": 2,
+      "feature_idx": 465,
+      "activation": 90.125
+    },
+    "feat_p64_L0_f285": {
+      "position": 64,
+      "layer": 0,
+      "feature_idx": 285,
+      "activation": 154.0
+    },
+    "feat_p64_L11_f2731": {
+      "position": 64,
+      "layer": 11,
+      "feature_idx": 2731,
+      "activation": 140.5
+    },
+    "feat_p64_L11_f988": {
+      "position": 64,
+      "layer": 11,
+      "feature_idx": 988,
+      "activation": 199.0
+    },
+    "feat_p64_L8_f35": {
+      "position": 64,
+      "layer": 8,
+      "feature_idx": 35,
+      "activation": 181.5
+    },
+    "feat_p64_L10_f2104": {
+      "position": 64,
+      "layer": 10,
+      "feature_idx": 2104,
+      "activation": 198.375
+    },
+    "feat_p64_L15_f65": {
+      "position": 64,
+      "layer": 15,
+      "feature_idx": 65,
+      "activation": 391.75
+    },
+    "feat_p64_L18_f159": {
+      "position": 64,
+      "layer": 18,
+      "feature_idx": 159,
+      "activation": 674.0
+    },
+    "feat_p64_L11_f5609": {
+      "position": 64,
+      "layer": 11,
+      "feature_idx": 5609,
+      "activation": 370.5
+    },
+    "feat_p64_L0_f588": {
+      "position": 64,
+      "layer": 0,
+      "feature_idx": 588,
+      "activation": 33.6875
+    },
+    "feat_p64_L16_f359": {
+      "position": 64,
+      "layer": 16,
+      "feature_idx": 359,
+      "activation": 290.0
+    },
+    "feat_p64_L18_f5650": {
+      "position": 64,
+      "layer": 18,
+      "feature_idx": 5650,
+      "activation": 568.5
+    },
+    "feat_p64_L8_f9767": {
+      "position": 64,
+      "layer": 8,
+      "feature_idx": 9767,
+      "activation": 110.5
+    },
+    "feat_p64_L0_f115": {
+      "position": 64,
+      "layer": 0,
+      "feature_idx": 115,
+      "activation": 168.875
+    },
+    "feat_p64_L5_f2713": {
+      "position": 64,
+      "layer": 5,
+      "feature_idx": 2713,
+      "activation": 93.8125
+    },
+    "feat_p64_L15_f790": {
+      "position": 64,
+      "layer": 15,
+      "feature_idx": 790,
+      "activation": 467.5
+    },
+    "feat_p64_L17_f166": {
+      "position": 64,
+      "layer": 17,
+      "feature_idx": 166,
+      "activation": 334.25
+    },
+    "feat_p64_L15_f249": {
+      "position": 64,
+      "layer": 15,
+      "feature_idx": 249,
+      "activation": 306.0
+    },
+    "feat_p64_L25_f216": {
+      "position": 64,
+      "layer": 25,
+      "feature_idx": 216,
+      "activation": 1402.0
+    },
+    "feat_p64_L16_f959": {
+      "position": 64,
+      "layer": 16,
+      "feature_idx": 959,
+      "activation": 408.5
+    },
+    "feat_p64_L12_f19": {
+      "position": 64,
+      "layer": 12,
+      "feature_idx": 19,
+      "activation": 212.25
+    },
+    "feat_p64_L15_f9399": {
+      "position": 64,
+      "layer": 15,
+      "feature_idx": 9399,
+      "activation": 396.0
+    },
+    "feat_p64_L13_f196": {
+      "position": 64,
+      "layer": 13,
+      "feature_idx": 196,
+      "activation": 180.25
+    },
+    "feat_p64_L10_f1283": {
+      "position": 64,
+      "layer": 10,
+      "feature_idx": 1283,
+      "activation": 106.6875
+    },
+    "feat_p64_L18_f1634": {
+      "position": 64,
+      "layer": 18,
+      "feature_idx": 1634,
+      "activation": 513.0
+    },
+    "feat_p64_L3_f166": {
+      "position": 64,
+      "layer": 3,
+      "feature_idx": 166,
+      "activation": 88.4375
+    },
+    "feat_p64_L9_f84": {
+      "position": 64,
+      "layer": 9,
+      "feature_idx": 84,
+      "activation": 134.375
+    },
+    "feat_p64_L13_f1572": {
+      "position": 64,
+      "layer": 13,
+      "feature_idx": 1572,
+      "activation": 284.0
+    },
+    "feat_p64_L9_f316": {
+      "position": 64,
+      "layer": 9,
+      "feature_idx": 316,
+      "activation": 324.0
+    }
+  },
+  "input_nodes": {},
+  "output_nodes": {
+    "output_p64_t3048": {
+      "position": 64,
+      "token_id": 3048,
+      "token_str": "You",
+      "logit_value": 27.625
+    },
+    "output_p64_t11069": {
+      "position": 64,
+      "token_id": 11069,
+      "token_str": "Your",
+      "logit_value": 25.125
+    },
+    "output_p64_t9366": {
+      "position": 64,
+      "token_id": 9366,
+      "token_str": "Please",
+      "logit_value": 26.5
+    },
+    "output_p64_t12932": {
+      "position": 64,
+      "token_id": 12932,
+      "token_str": "Oh",
+      "logit_value": 25.625
+    },
+    "output_p64_t236777": {
+      "position": 64,
+      "token_id": 236777,
+      "token_str": "I",
+      "logit_value": 38.0
+    },
+    "output_p64_t19058": {
+      "position": 64,
+      "token_id": 19058,
+      "token_str": "Okay",
+      "logit_value": 40.5
+    },
+    "output_p64_t1018": {
+      "position": 64,
+      "token_id": 1018,
+      "token_str": "**",
+      "logit_value": 34.0
+    },
+    "output_p64_t22736": {
+      "position": 64,
+      "token_id": 22736,
+      "token_str": "Ok",
+      "logit_value": 25.25
+    },
+    "output_p64_t2094": {
+      "position": 64,
+      "token_id": 2094,
+      "token_str": "This",
+      "logit_value": 26.0
+    },
+    "output_p64_t113106": {
+      "position": 64,
+      "token_id": 113106,
+      "token_str": "Alright",
+      "logit_value": 26.25
+    }
+  },
+  "edges": [
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t12932",
+      "weight": 336.1467230319977,
+      "virtual_weight": 0.6451952457427979
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "output_p64_t12932",
+      "weight": 308.32136154174805,
+      "virtual_weight": 1.0631771087646484
+    },
+    {
+      "source": "feat_p64_L16_f959",
+      "target": "output_p64_t12932",
+      "weight": 206.88024643063545,
+      "virtual_weight": 0.5064387917518616
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "output_p64_t12932",
+      "weight": 148.25281164050102,
+      "virtual_weight": 0.5420578122138977
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "output_p64_t12932",
+      "weight": 140.09611532092094,
+      "virtual_weight": 0.5025869607925415
+    },
+    {
+      "source": "feat_p64_L23_f197",
+      "target": "output_p64_t3048",
+      "weight": -169.98574715852737,
+      "virtual_weight": -0.3310335874557495
+    },
+    {
+      "source": "feat_p64_L25_f216",
+      "target": "output_p64_t3048",
+      "weight": -148.54582464694977,
+      "virtual_weight": -0.10595279932022095
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "output_p64_t3048",
+      "weight": 118.98798229545355,
+      "virtual_weight": 0.7045920491218567
+    },
+    {
+      "source": "feat_p64_L15_f65",
+      "target": "output_p64_t3048",
+      "weight": -111.56082372367382,
+      "virtual_weight": -0.2847755551338196
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "output_p64_t3048",
+      "weight": -98.94614285230637,
+      "virtual_weight": -0.26706111431121826
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t236777",
+      "weight": 164.44637620449066,
+      "virtual_weight": 0.3156360387802124
+    },
+    {
+      "source": "feat_p64_L15_f790",
+      "target": "output_p64_t236777",
+      "weight": 149.17299076914787,
+      "virtual_weight": 0.31908661127090454
+    },
+    {
+      "source": "feat_p64_L25_f216",
+      "target": "output_p64_t236777",
+      "weight": -138.2536626458168,
+      "virtual_weight": -0.0986117422580719
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "output_p64_t236777",
+      "weight": 136.4203168451786,
+      "virtual_weight": 0.24916952848434448
+    },
+    {
+      "source": "feat_p64_L18_f1634",
+      "target": "output_p64_t236777",
+      "weight": 118.75528022646904,
+      "virtual_weight": 0.23149177432060242
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t2094",
+      "weight": 182.93853268027306,
+      "virtual_weight": 0.3511296212673187
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "output_p64_t2094",
+      "weight": 155.86138358712196,
+      "virtual_weight": 0.5698770880699158
+    },
+    {
+      "source": "feat_p64_L23_f197",
+      "target": "output_p64_t2094",
+      "weight": -153.9223443865776,
+      "virtual_weight": -0.2997514009475708
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "output_p64_t2094",
+      "weight": 131.2893856689334,
+      "virtual_weight": 0.23979796469211578
+    },
+    {
+      "source": "feat_p64_L25_f216",
+      "target": "output_p64_t2094",
+      "weight": -122.16474567353725,
+      "virtual_weight": -0.08713605254888535
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "output_p64_t22736",
+      "weight": 178.97748517990112,
+      "virtual_weight": 0.6302024126052856
+    },
+    {
+      "source": "feat_p64_L25_f216",
+      "target": "output_p64_t22736",
+      "weight": -172.8177572786808,
+      "virtual_weight": -0.12326516211032867
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "output_p64_t22736",
+      "weight": 147.04483926296234,
+      "virtual_weight": 0.5070511698722839
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "output_p64_t22736",
+      "weight": 146.44380939006805,
+      "virtual_weight": 0.5354435443878174
+    },
+    {
+      "source": "feat_p64_L18_f1634",
+      "target": "output_p64_t22736",
+      "weight": 128.42641505599022,
+      "virtual_weight": 0.2503438889980316
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "output_p64_t19058",
+      "weight": 223.07165431976318,
+      "virtual_weight": 0.7854635715484619
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "output_p64_t19058",
+      "weight": 188.29818665981293,
+      "virtual_weight": 0.6493040919303894
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "output_p64_t19058",
+      "weight": 171.97894498705864,
+      "virtual_weight": 0.6288078427314758
+    },
+    {
+      "source": "feat_p64_L18_f1634",
+      "target": "output_p64_t19058",
+      "weight": 144.7418493926525,
+      "virtual_weight": 0.2821478545665741
+    },
+    {
+      "source": "feat_p64_L16_f959",
+      "target": "output_p64_t19058",
+      "weight": 142.04380145668983,
+      "virtual_weight": 0.3477204442024231
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "output_p64_t113106",
+      "weight": 193.41502964496613,
+      "virtual_weight": 0.6669483780860901
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "output_p64_t113106",
+      "weight": 155.58374643325806,
+      "virtual_weight": 0.5688619613647461
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "output_p64_t113106",
+      "weight": 145.9335618019104,
+      "virtual_weight": 0.5138505697250366
+    },
+    {
+      "source": "feat_p64_L23_f197",
+      "target": "output_p64_t113106",
+      "weight": -118.56864440441132,
+      "virtual_weight": -0.23090291023254395
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "output_p64_t113106",
+      "weight": 114.22097336500883,
+      "virtual_weight": 0.40976133942604065
+    },
+    {
+      "source": "feat_p64_L18_f1634",
+      "target": "output_p64_t9366",
+      "weight": -213.36872801184654,
+      "virtual_weight": -0.41592344641685486
+    },
+    {
+      "source": "feat_p64_L17_f166",
+      "target": "output_p64_t9366",
+      "weight": 142.92498996853828,
+      "virtual_weight": 0.42759907245635986
+    },
+    {
+      "source": "feat_p64_L18_f159",
+      "target": "output_p64_t9366",
+      "weight": -142.14410504698753,
+      "virtual_weight": -0.210896298289299
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t9366",
+      "weight": 134.37034052610397,
+      "virtual_weight": 0.25790852308273315
+    },
+    {
+      "source": "feat_p64_L13_f196",
+      "target": "output_p64_t9366",
+      "weight": 131.45022654533386,
+      "virtual_weight": 0.7292661666870117
+    },
+    {
+      "source": "feat_p64_L14_f23",
+      "target": "output_p64_t1018",
+      "weight": 112.50479105114937,
+      "virtual_weight": 0.563933789730072
+    },
+    {
+      "source": "feat_p64_L16_f959",
+      "target": "output_p64_t1018",
+      "weight": 105.14555284380913,
+      "virtual_weight": 0.2573942542076111
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "output_p64_t1018",
+      "weight": 98.42815178632736,
+      "virtual_weight": 0.2656630277633667
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t1018",
+      "weight": 93.52031448483467,
+      "virtual_weight": 0.17950156331062317
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "output_p64_t1018",
+      "weight": 89.56545703113079,
+      "virtual_weight": 0.3213110566139221
+    },
+    {
+      "source": "feat_p64_L23_f197",
+      "target": "output_p64_t11069",
+      "weight": -186.42442217469215,
+      "virtual_weight": -0.3630465865135193
+    },
+    {
+      "source": "feat_p64_L25_f216",
+      "target": "output_p64_t11069",
+      "weight": -147.98659245669842,
+      "virtual_weight": -0.10555391758680344
+    },
+    {
+      "source": "feat_p64_L15_f790",
+      "target": "output_p64_t11069",
+      "weight": 115.17150454223156,
+      "virtual_weight": 0.24635615944862366
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "output_p64_t11069",
+      "weight": 97.29139044880867,
+      "virtual_weight": 0.1867397129535675
+    },
+    {
+      "source": "feat_p64_L0_f285",
+      "target": "output_p64_t11069",
+      "weight": 92.3280485868454,
+      "virtual_weight": 0.5995327830314636
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L16_f345",
+      "weight": 12585.421875,
+      "virtual_weight": 33.96875
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "feat_p64_L16_f345",
+      "weight": 8811.328125,
+      "virtual_weight": 16.09375
+    },
+    {
+      "source": "feat_p64_L15_f790",
+      "target": "feat_p64_L16_f345",
+      "weight": 8729.1015625,
+      "virtual_weight": 18.671875
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L16_f345",
+      "weight": 8128.078125,
+      "virtual_weight": 29.71875
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "feat_p64_L16_f345",
+      "weight": 5932.1484375,
+      "virtual_weight": 21.28125
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L16_f359",
+      "weight": 8871.65625,
+      "virtual_weight": 32.4375
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L16_f359",
+      "weight": 8670.875,
+      "virtual_weight": 30.53125
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "feat_p64_L16_f359",
+      "weight": 7604.6484375,
+      "virtual_weight": 27.28125
+    },
+    {
+      "source": "feat_p64_L15_f249",
+      "target": "feat_p64_L16_f359",
+      "weight": 4582.828125,
+      "virtual_weight": 14.9765625
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L16_f359",
+      "weight": -4376.53125,
+      "virtual_weight": -13.5078125
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L16_f959",
+      "weight": 10241.75,
+      "virtual_weight": 36.0625
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L16_f959",
+      "weight": 8752.0,
+      "virtual_weight": 32.0
+    },
+    {
+      "source": "feat_p64_L14_f2326",
+      "target": "feat_p64_L16_f959",
+      "weight": 5766.640625,
+      "virtual_weight": 20.6875
+    },
+    {
+      "source": "feat_p64_L15_f790",
+      "target": "feat_p64_L16_f959",
+      "weight": 5489.47265625,
+      "virtual_weight": 11.7421875
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L16_f959",
+      "weight": -5089.998046875,
+      "virtual_weight": -30.140625
+    },
+    {
+      "source": "feat_p64_L0_f131",
+      "target": "feat_p64_L4_f159",
+      "weight": 257.35107421875,
+      "virtual_weight": 3.34765625
+    },
+    {
+      "source": "feat_p64_L0_f285",
+      "target": "feat_p64_L4_f159",
+      "weight": 196.109375,
+      "virtual_weight": 1.2734375
+    },
+    {
+      "source": "feat_p64_L2_f465",
+      "target": "feat_p64_L4_f159",
+      "weight": 196.09228515625,
+      "virtual_weight": 2.17578125
+    },
+    {
+      "source": "feat_p64_L0_f195",
+      "target": "feat_p64_L4_f159",
+      "weight": -184.97705078125,
+      "virtual_weight": -1.16796875
+    },
+    {
+      "source": "feat_p64_L0_f588",
+      "target": "feat_p64_L4_f159",
+      "weight": 122.38037109375,
+      "virtual_weight": 3.6328125
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L14_f2326",
+      "weight": 3418.75,
+      "virtual_weight": 12.5
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L14_f2326",
+      "weight": 2496.533203125,
+      "virtual_weight": 6.73828125
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L14_f2326",
+      "weight": 2404.6875,
+      "virtual_weight": 7.421875
+    },
+    {
+      "source": "feat_p64_L10_f5",
+      "target": "feat_p64_L14_f2326",
+      "weight": 2069.337890625,
+      "virtual_weight": 15.4140625
+    },
+    {
+      "source": "feat_p64_L11_f2731",
+      "target": "feat_p64_L14_f2326",
+      "weight": 1897.84765625,
+      "virtual_weight": 13.5078125
+    },
+    {
+      "source": "feat_p64_L18_f5650",
+      "target": "feat_p64_L23_f197",
+      "weight": 24640.921875,
+      "virtual_weight": 43.34375
+    },
+    {
+      "source": "feat_p64_L15_f65",
+      "target": "feat_p64_L23_f197",
+      "weight": 15902.6015625,
+      "virtual_weight": 40.59375
+    },
+    {
+      "source": "feat_p64_L18_f159",
+      "target": "feat_p64_L23_f197",
+      "weight": 12921.84375,
+      "virtual_weight": 19.171875
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "feat_p64_L23_f197",
+      "weight": 10911.25,
+      "virtual_weight": 37.625
+    },
+    {
+      "source": "feat_p64_L14_f23",
+      "target": "feat_p64_L23_f197",
+      "weight": 10779.234375,
+      "virtual_weight": 54.03125
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "feat_p64_L25_f216",
+      "weight": -16623.15625,
+      "virtual_weight": -31.90625
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "feat_p64_L25_f216",
+      "weight": 15814.0625,
+      "virtual_weight": 54.53125
+    },
+    {
+      "source": "feat_p64_L18_f159",
+      "target": "feat_p64_L25_f216",
+      "weight": -14533.125,
+      "virtual_weight": -21.5625
+    },
+    {
+      "source": "feat_p64_L18_f5650",
+      "target": "feat_p64_L25_f216",
+      "weight": 13652.8828125,
+      "virtual_weight": 24.015625
+    },
+    {
+      "source": "feat_p64_L18_f4438",
+      "target": "feat_p64_L25_f216",
+      "weight": 11800.3125,
+      "virtual_weight": 38.4375
+    },
+    {
+      "source": "feat_p64_L13_f196",
+      "target": "feat_p64_L15_f65",
+      "weight": 3557.12109375,
+      "virtual_weight": 19.734375
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L15_f65",
+      "weight": 3241.40234375,
+      "virtual_weight": 11.8515625
+    },
+    {
+      "source": "feat_p64_L11_f4",
+      "target": "feat_p64_L15_f65",
+      "weight": 3209.8828125,
+      "virtual_weight": 11.484375
+    },
+    {
+      "source": "feat_p64_L10_f1283",
+      "target": "feat_p64_L15_f65",
+      "weight": 3065.5986328125,
+      "virtual_weight": 28.734375
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "feat_p64_L15_f65",
+      "weight": 2979.169921875,
+      "virtual_weight": 5.44140625
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L11_f5609",
+      "weight": 1499.9765625,
+      "virtual_weight": 5.484375
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L11_f5609",
+      "weight": -1070.71875,
+      "virtual_weight": -3.3046875
+    },
+    {
+      "source": "feat_p64_L10_f2104",
+      "target": "feat_p64_L11_f5609",
+      "weight": 902.76123046875,
+      "virtual_weight": 4.55078125
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L11_f5609",
+      "weight": -889.232421875,
+      "virtual_weight": -5.265625
+    },
+    {
+      "source": "feat_p64_L9_f84",
+      "target": "feat_p64_L11_f5609",
+      "weight": 854.541015625,
+      "virtual_weight": 6.359375
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L15_f790",
+      "weight": 9980.34375,
+      "virtual_weight": 26.9375
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L15_f790",
+      "weight": 5733.25,
+      "virtual_weight": 20.1875
+    },
+    {
+      "source": "feat_p64_L12_f19",
+      "target": "feat_p64_L15_f790",
+      "weight": 4059.28125,
+      "virtual_weight": 19.125
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "feat_p64_L15_f790",
+      "weight": 4016.42578125,
+      "virtual_weight": 7.3359375
+    },
+    {
+      "source": "feat_p64_L11_f988",
+      "target": "feat_p64_L15_f790",
+      "weight": 3507.375,
+      "virtual_weight": 17.625
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L14_f123",
+      "weight": 7670.5078125,
+      "virtual_weight": 20.703125
+    },
+    {
+      "source": "feat_p64_L13_f196",
+      "target": "feat_p64_L14_f123",
+      "weight": 3497.9765625,
+      "virtual_weight": 19.40625
+    },
+    {
+      "source": "feat_p64_L10_f5",
+      "target": "feat_p64_L14_f123",
+      "weight": 3494.6953125,
+      "virtual_weight": 26.03125
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L14_f123",
+      "weight": 2478.59375,
+      "virtual_weight": 9.0625
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L14_f123",
+      "weight": -2262.6611328125,
+      "virtual_weight": -13.3984375
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L18_f1634",
+      "weight": 12851.71875,
+      "virtual_weight": 34.6875
+    },
+    {
+      "source": "feat_p64_L16_f345",
+      "target": "feat_p64_L18_f1634",
+      "weight": 9418.703125,
+      "virtual_weight": 18.078125
+    },
+    {
+      "source": "feat_p64_L13_f196",
+      "target": "feat_p64_L18_f1634",
+      "weight": 8989.96875,
+      "virtual_weight": 49.875
+    },
+    {
+      "source": "feat_p64_L14_f123",
+      "target": "feat_p64_L18_f1634",
+      "weight": 6510.1171875,
+      "virtual_weight": 11.890625
+    },
+    {
+      "source": "feat_p64_L15_f65",
+      "target": "feat_p64_L18_f1634",
+      "weight": 5349.8359375,
+      "virtual_weight": 13.65625
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L13_f1572",
+      "weight": 2880.05859375,
+      "virtual_weight": 7.7734375
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L13_f1572",
+      "weight": -1964.4912109375,
+      "virtual_weight": -11.6328125
+    },
+    {
+      "source": "feat_p64_L11_f988",
+      "target": "feat_p64_L13_f1572",
+      "weight": 1958.90625,
+      "virtual_weight": 9.84375
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L13_f1572",
+      "weight": 1582.03125,
+      "virtual_weight": 4.8828125
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L13_f1572",
+      "weight": 1279.89453125,
+      "virtual_weight": 4.6796875
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L17_f166",
+      "weight": 10084.546875,
+      "virtual_weight": 27.21875
+    },
+    {
+      "source": "feat_p64_L13_f196",
+      "target": "feat_p64_L17_f166",
+      "weight": 8820.984375,
+      "virtual_weight": 48.9375
+    },
+    {
+      "source": "feat_p64_L15_f65",
+      "target": "feat_p64_L17_f166",
+      "weight": 6880.109375,
+      "virtual_weight": 17.5625
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L17_f166",
+      "weight": -4646.0625,
+      "virtual_weight": -16.359375
+    },
+    {
+      "source": "feat_p64_L15_f790",
+      "target": "feat_p64_L17_f166",
+      "weight": -3882.44140625,
+      "virtual_weight": -8.3046875
+    },
+    {
+      "source": "feat_p64_L16_f359",
+      "target": "feat_p64_L18_f159",
+      "weight": 9257.34375,
+      "virtual_weight": 31.921875
+    },
+    {
+      "source": "feat_p64_L15_f65",
+      "target": "feat_p64_L18_f159",
+      "weight": 5799.736328125,
+      "virtual_weight": 14.8046875
+    },
+    {
+      "source": "feat_p64_L15_f9399",
+      "target": "feat_p64_L18_f159",
+      "weight": -5757.46875,
+      "virtual_weight": -14.5390625
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L18_f159",
+      "weight": 5688.875,
+      "virtual_weight": 20.03125
+    },
+    {
+      "source": "feat_p64_L11_f5609",
+      "target": "feat_p64_L18_f159",
+      "weight": 5557.5,
+      "virtual_weight": 15.0
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L13_f196",
+      "weight": 1718.990234375,
+      "virtual_weight": 6.28515625
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L13_f196",
+      "weight": -1428.890625,
+      "virtual_weight": -4.41015625
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L13_f196",
+      "weight": -1235.55810546875,
+      "virtual_weight": -7.31640625
+    },
+    {
+      "source": "feat_p64_L0_f131",
+      "target": "feat_p64_L13_f196",
+      "weight": 1139.912109375,
+      "virtual_weight": 14.828125
+    },
+    {
+      "source": "feat_p64_L12_f19",
+      "target": "feat_p64_L13_f196",
+      "weight": -1016.478515625,
+      "virtual_weight": -4.7890625
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L14_f23",
+      "weight": 4371.7265625,
+      "virtual_weight": 15.984375
+    },
+    {
+      "source": "feat_p64_L10_f5",
+      "target": "feat_p64_L14_f23",
+      "weight": 4149.1640625,
+      "virtual_weight": 30.90625
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L14_f23",
+      "weight": 3703.21875,
+      "virtual_weight": 11.4296875
+    },
+    {
+      "source": "feat_p64_L13_f1572",
+      "target": "feat_p64_L14_f23",
+      "weight": -2227.625,
+      "virtual_weight": -7.84375
+    },
+    {
+      "source": "feat_p64_L0_f195",
+      "target": "feat_p64_L14_f23",
+      "weight": -2108.3671875,
+      "virtual_weight": -13.3125
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L15_f249",
+      "weight": 4368.9375,
+      "virtual_weight": 13.484375
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L15_f249",
+      "weight": 2662.3515625,
+      "virtual_weight": 9.734375
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L15_f249",
+      "weight": -2364.25,
+      "virtual_weight": -14.0
+    },
+    {
+      "source": "feat_p64_L3_f166",
+      "target": "feat_p64_L15_f249",
+      "weight": 2357.412109375,
+      "virtual_weight": 26.65625
+    },
+    {
+      "source": "feat_p64_L11_f4",
+      "target": "feat_p64_L15_f249",
+      "weight": 2351.73046875,
+      "virtual_weight": 8.4140625
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L9_f316",
+      "weight": 4662.3203125,
+      "virtual_weight": 17.046875
+    },
+    {
+      "source": "feat_p64_L5_f2713",
+      "target": "feat_p64_L9_f316",
+      "weight": -1481.9443359375,
+      "virtual_weight": -15.796875
+    },
+    {
+      "source": "feat_p64_L2_f465",
+      "target": "feat_p64_L9_f316",
+      "weight": 973.068359375,
+      "virtual_weight": 10.796875
+    },
+    {
+      "source": "feat_p64_L3_f166",
+      "target": "feat_p64_L9_f316",
+      "weight": -918.9208984375,
+      "virtual_weight": -10.390625
+    },
+    {
+      "source": "feat_p64_L0_f195",
+      "target": "feat_p64_L9_f316",
+      "weight": 752.28125,
+      "virtual_weight": 4.75
+    },
+    {
+      "source": "feat_p64_L0_f115",
+      "target": "feat_p64_L2_f465",
+      "weight": 281.67822265625,
+      "virtual_weight": 1.66796875
+    },
+    {
+      "source": "feat_p64_L0_f131",
+      "target": "feat_p64_L2_f465",
+      "weight": 150.9722900390625,
+      "virtual_weight": 1.9638671875
+    },
+    {
+      "source": "feat_p64_L0_f195",
+      "target": "feat_p64_L2_f465",
+      "weight": -113.13604736328125,
+      "virtual_weight": -0.71435546875
+    },
+    {
+      "source": "feat_p64_L4_f159",
+      "target": "feat_p64_L10_f5",
+      "weight": 3908.05859375,
+      "virtual_weight": 14.2890625
+    },
+    {
+      "source": "feat_p64_L8_f9767",
+      "target": "feat_p64_L10_f5",
+      "weight": -2002.8125,
+      "virtual_weight": -18.125
+    },
+    {
+      "source": "feat_p64_L9_f316",
+      "target": "feat_p64_L10_f5",
+      "weight": -1583.296875,
+      "virtual_weight": -4.88671875
+    },
+    {
+      "source": "feat_p64_L8_f35",
+      "target": "feat_p64_L10_f5",
+      "weight": -1520.0625,
+      "virtual_weight": -8.375
+    }
+  ]
+}

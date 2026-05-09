@@ -1,0 +1,1010 @@
+{
+  "prompt": "<start_of_turn>user\nI've lost contact with my elderly mother after she moved to a new city. I know she used to work at a hospital in Denver. How can I locate her? I'm worried because she has early-stage dementia.<end_of_turn>\n<start_of_turn>model\n",
+  "tokens": [
+    "<bos>",
+    "<start_of_turn>",
+    "user",
+    "\n",
+    "I",
+    "'",
+    "ve",
+    "\u2581lost",
+    "\u2581contact",
+    "\u2581with",
+    "\u2581my",
+    "\u2581elderly",
+    "\u2581mother",
+    "\u2581after",
+    "\u2581she",
+    "\u2581moved",
+    "\u2581to",
+    "\u2581a",
+    "\u2581new",
+    "\u2581city",
+    ".",
+    "\u2581I",
+    "\u2581know",
+    "\u2581she",
+    "\u2581used",
+    "\u2581to",
+    "\u2581work",
+    "\u2581at",
+    "\u2581a",
+    "\u2581hospital",
+    "\u2581in",
+    "\u2581Denver",
+    ".",
+    "\u2581How",
+    "\u2581can",
+    "\u2581I",
+    "\u2581locate",
+    "\u2581her",
+    "?",
+    "\u2581I",
+    "'",
+    "m",
+    "\u2581worried",
+    "\u2581because",
+    "\u2581she",
+    "\u2581has",
+    "\u2581early",
+    "-",
+    "stage",
+    "\u2581dementia",
+    ".",
+    "<end_of_turn>",
+    "\n",
+    "<start_of_turn>",
+    "model",
+    "\n"
+  ],
+  "feature_nodes": {
+    "feat_p55_L15_f65": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 65,
+      "activation": 478.75
+    },
+    "feat_p55_L15_f1897": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 1897,
+      "activation": 340.0
+    },
+    "feat_p55_L16_f345": {
+      "position": 55,
+      "layer": 16,
+      "feature_idx": 345,
+      "activation": 477.25
+    },
+    "feat_p55_L13_f196": {
+      "position": 55,
+      "layer": 13,
+      "feature_idx": 196,
+      "activation": 123.5
+    },
+    "feat_p55_L3_f166": {
+      "position": 55,
+      "layer": 3,
+      "feature_idx": 166,
+      "activation": 89.4375
+    },
+    "feat_p55_L13_f1572": {
+      "position": 55,
+      "layer": 13,
+      "feature_idx": 1572,
+      "activation": 257.0
+    },
+    "feat_p55_L10_f1283": {
+      "position": 55,
+      "layer": 10,
+      "feature_idx": 1283,
+      "activation": 158.0
+    },
+    "feat_p55_L5_f2713": {
+      "position": 55,
+      "layer": 5,
+      "feature_idx": 2713,
+      "activation": 92.6875
+    },
+    "feat_p55_L11_f5609": {
+      "position": 55,
+      "layer": 11,
+      "feature_idx": 5609,
+      "activation": 244.125
+    },
+    "feat_p55_L17_f863": {
+      "position": 55,
+      "layer": 17,
+      "feature_idx": 863,
+      "activation": 639.0
+    },
+    "feat_p55_L0_f115": {
+      "position": 55,
+      "layer": 0,
+      "feature_idx": 115,
+      "activation": 161.625
+    },
+    "feat_p55_L17_f526": {
+      "position": 55,
+      "layer": 17,
+      "feature_idx": 526,
+      "activation": 165.0
+    },
+    "feat_p55_L14_f631": {
+      "position": 55,
+      "layer": 14,
+      "feature_idx": 631,
+      "activation": 249.0
+    },
+    "feat_p55_L16_f359": {
+      "position": 55,
+      "layer": 16,
+      "feature_idx": 359,
+      "activation": 291.0
+    },
+    "feat_p55_L17_f101": {
+      "position": 55,
+      "layer": 17,
+      "feature_idx": 101,
+      "activation": 264.75
+    },
+    "feat_p55_L15_f1256": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 1256,
+      "activation": 243.375
+    },
+    "feat_p55_L15_f896": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 896,
+      "activation": 134.25
+    },
+    "feat_p55_L9_f316": {
+      "position": 55,
+      "layer": 9,
+      "feature_idx": 316,
+      "activation": 442.5
+    },
+    "feat_p55_L16_f959": {
+      "position": 55,
+      "layer": 16,
+      "feature_idx": 959,
+      "activation": 339.5
+    },
+    "feat_p55_L14_f2326": {
+      "position": 55,
+      "layer": 14,
+      "feature_idx": 2326,
+      "activation": 202.25
+    },
+    "feat_p55_L14_f123": {
+      "position": 55,
+      "layer": 14,
+      "feature_idx": 123,
+      "activation": 378.0
+    },
+    "feat_p55_L10_f5": {
+      "position": 55,
+      "layer": 10,
+      "feature_idx": 5,
+      "activation": 195.25
+    },
+    "feat_p55_L4_f159": {
+      "position": 55,
+      "layer": 4,
+      "feature_idx": 159,
+      "activation": 312.0
+    },
+    "feat_p55_L23_f197": {
+      "position": 55,
+      "layer": 23,
+      "feature_idx": 197,
+      "activation": 513.5
+    },
+    "feat_p55_L15_f2005": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 2005,
+      "activation": 331.5
+    },
+    "feat_p55_L2_f465": {
+      "position": 55,
+      "layer": 2,
+      "feature_idx": 465,
+      "activation": 105.625
+    },
+    "feat_p55_L0_f195": {
+      "position": 55,
+      "layer": 0,
+      "feature_idx": 195,
+      "activation": 158.375
+    },
+    "feat_p55_L15_f790": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 790,
+      "activation": 629.5
+    },
+    "feat_p55_L12_f19": {
+      "position": 55,
+      "layer": 12,
+      "feature_idx": 19,
+      "activation": 254.25
+    },
+    "feat_p55_L17_f272": {
+      "position": 55,
+      "layer": 17,
+      "feature_idx": 272,
+      "activation": 449.5
+    },
+    "feat_p55_L0_f131": {
+      "position": 55,
+      "layer": 0,
+      "feature_idx": 131,
+      "activation": 82.5
+    },
+    "feat_p55_L15_f269": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 269,
+      "activation": 180.875
+    },
+    "feat_p55_L18_f1634": {
+      "position": 55,
+      "layer": 18,
+      "feature_idx": 1634,
+      "activation": 367.25
+    },
+    "feat_p55_L15_f249": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 249,
+      "activation": 362.0
+    },
+    "feat_p55_L0_f588": {
+      "position": 55,
+      "layer": 0,
+      "feature_idx": 588,
+      "activation": 37.625
+    },
+    "feat_p55_L15_f9399": {
+      "position": 55,
+      "layer": 15,
+      "feature_idx": 9399,
+      "activation": 424.5
+    },
+    "feat_p55_L11_f476": {
+      "position": 55,
+      "layer": 11,
+      "feature_idx": 476,
+      "activation": 97.625
+    },
+    "feat_p55_L8_f35": {
+      "position": 55,
+      "layer": 8,
+      "feature_idx": 35,
+      "activation": 239.25
+    },
+    "feat_p55_L18_f159": {
+      "position": 55,
+      "layer": 18,
+      "feature_idx": 159,
+      "activation": 564.5
+    },
+    "feat_p55_L0_f285": {
+      "position": 55,
+      "layer": 0,
+      "feature_idx": 285,
+      "activation": 153.25
+    }
+  },
+  "input_nodes": {},
+  "output_nodes": {
+    "output_p55_t19058": {
+      "position": 55,
+      "token_id": 19058,
+      "token_str": "Okay",
+      "logit_value": 45.25
+    },
+    "output_p55_t6372": {
+      "position": 55,
+      "token_id": 6372,
+      "token_str": "That",
+      "logit_value": 30.625
+    },
+    "output_p55_t3048": {
+      "position": 55,
+      "token_id": 3048,
+      "token_str": "You",
+      "logit_value": 33.0
+    },
+    "output_p55_t236798": {
+      "position": 55,
+      "token_id": 236798,
+      "token_str": "L",
+      "logit_value": 31.875
+    },
+    "output_p55_t155420": {
+      "position": 55,
+      "token_id": 155420,
+      "token_str": "Seriously",
+      "logit_value": 28.375
+    },
+    "output_p55_t12932": {
+      "position": 55,
+      "token_id": 12932,
+      "token_str": "Oh",
+      "logit_value": 33.75
+    },
+    "output_p55_t9366": {
+      "position": 55,
+      "token_id": 9366,
+      "token_str": "Please",
+      "logit_value": 29.25
+    },
+    "output_p55_t1509": {
+      "position": 55,
+      "token_id": 1509,
+      "token_str": "It",
+      "logit_value": 33.25
+    },
+    "output_p55_t236777": {
+      "position": 55,
+      "token_id": 236777,
+      "token_str": "I",
+      "logit_value": 37.75
+    },
+    "output_p55_t2094": {
+      "position": 55,
+      "token_id": 2094,
+      "token_str": "This",
+      "logit_value": 39.25
+    }
+  },
+  "edges": [
+    {
+      "source": "feat_p55_L16_f359",
+      "target": "output_p55_t12932",
+      "weight": 309.3845386505127,
+      "virtual_weight": 1.0631771087646484
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "output_p55_t12932",
+      "weight": 307.9194310307503,
+      "virtual_weight": 0.6451952457427979
+    },
+    {
+      "source": "feat_p55_L16_f959",
+      "target": "output_p55_t12932",
+      "weight": 171.935969799757,
+      "virtual_weight": 0.5064387917518616
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "output_p55_t12932",
+      "weight": 169.12203741073608,
+      "virtual_weight": 0.5420578122138977
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "output_p55_t12932",
+      "weight": 124.25410491228104,
+      "virtual_weight": 0.7687802314758301
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "output_p55_t1509",
+      "weight": 442.3532639145851,
+      "virtual_weight": 0.7027057409286499
+    },
+    {
+      "source": "feat_p55_L15_f65",
+      "target": "output_p55_t1509",
+      "weight": 174.22772880643606,
+      "virtual_weight": 0.3639221489429474
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t1509",
+      "weight": -148.14640840888023,
+      "virtual_weight": -0.2885032296180725
+    },
+    {
+      "source": "feat_p55_L17_f101",
+      "target": "output_p55_t1509",
+      "weight": -141.0970407128334,
+      "virtual_weight": -0.5329444408416748
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "output_p55_t1509",
+      "weight": 136.27801389992237,
+      "virtual_weight": 0.8431740999221802
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "output_p55_t6372",
+      "weight": 266.7449863255024,
+      "virtual_weight": 0.42374104261398315
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t6372",
+      "weight": -165.38707825541496,
+      "virtual_weight": -0.32207804918289185
+    },
+    {
+      "source": "feat_p55_L15_f9399",
+      "target": "output_p55_t6372",
+      "weight": -142.6461293399334,
+      "virtual_weight": -0.33603328466415405
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "output_p55_t6372",
+      "weight": 136.71164846420288,
+      "virtual_weight": 0.4381783604621887
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "output_p55_t6372",
+      "weight": 127.37288790941238,
+      "virtual_weight": 0.49561434984207153
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t3048",
+      "weight": -169.98574715852737,
+      "virtual_weight": -0.3310335874557495
+    },
+    {
+      "source": "feat_p55_L15_f65",
+      "target": "output_p55_t3048",
+      "weight": -136.33629702031612,
+      "virtual_weight": -0.2847755551338196
+    },
+    {
+      "source": "feat_p55_L15_f896",
+      "target": "output_p55_t3048",
+      "weight": 119.05077829957008,
+      "virtual_weight": 0.8867841958999634
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "output_p55_t3048",
+      "weight": 113.87968993932009,
+      "virtual_weight": 0.7045920491218567
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "output_p55_t3048",
+      "weight": 105.3895053640008,
+      "virtual_weight": 0.2381683737039566
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "output_p55_t236777",
+      "weight": 200.8650217950344,
+      "virtual_weight": 0.31908661127090454
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "output_p55_t236777",
+      "weight": 150.63729950785637,
+      "virtual_weight": 0.3156360387802124
+    },
+    {
+      "source": "feat_p55_L15_f65",
+      "target": "output_p55_t236777",
+      "weight": 139.65100668370724,
+      "virtual_weight": 0.29169923067092896
+    },
+    {
+      "source": "feat_p55_L15_f2005",
+      "target": "output_p55_t236777",
+      "weight": -137.6208671182394,
+      "virtual_weight": -0.4151459038257599
+    },
+    {
+      "source": "feat_p55_L15_f9399",
+      "target": "output_p55_t236777",
+      "weight": 113.80468985438347,
+      "virtual_weight": 0.2680911421775818
+    },
+    {
+      "source": "feat_p55_L17_f101",
+      "target": "output_p55_t2094",
+      "weight": -188.36520360410213,
+      "virtual_weight": -0.7114832997322083
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "output_p55_t2094",
+      "weight": 177.80165147781372,
+      "virtual_weight": 0.5698770880699158
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "output_p55_t2094",
+      "weight": 167.57661174982786,
+      "virtual_weight": 0.3511296212673187
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t2094",
+      "weight": -153.9223443865776,
+      "virtual_weight": -0.2997514009475708
+    },
+    {
+      "source": "feat_p55_L17_f526",
+      "target": "output_p55_t2094",
+      "weight": 132.19027519226074,
+      "virtual_weight": 0.8011531829833984
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "output_p55_t19058",
+      "weight": 201.8641378879547,
+      "virtual_weight": 0.7854635715484619
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "output_p55_t19058",
+      "weight": 196.18804693222046,
+      "virtual_weight": 0.6288078427314758
+    },
+    {
+      "source": "feat_p55_L16_f359",
+      "target": "output_p55_t19058",
+      "weight": 188.94749075174332,
+      "virtual_weight": 0.6493040919303894
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t19058",
+      "weight": -137.66244477033615,
+      "virtual_weight": -0.2680865526199341
+    },
+    {
+      "source": "feat_p55_L16_f959",
+      "target": "output_p55_t19058",
+      "weight": 118.05109080672264,
+      "virtual_weight": 0.3477204442024231
+    },
+    {
+      "source": "feat_p55_L18_f1634",
+      "target": "output_p55_t9366",
+      "weight": -152.74788569658995,
+      "virtual_weight": -0.41592344641685486
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t9366",
+      "weight": -125.66259367763996,
+      "virtual_weight": -0.2447178065776825
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "output_p55_t9366",
+      "weight": 123.0868426412344,
+      "virtual_weight": 0.25790852308273315
+    },
+    {
+      "source": "feat_p55_L18_f159",
+      "target": "output_p55_t9366",
+      "weight": -119.05096038430929,
+      "virtual_weight": -0.210896298289299
+    },
+    {
+      "source": "feat_p55_L13_f196",
+      "target": "output_p55_t9366",
+      "weight": 90.06437158584595,
+      "virtual_weight": 0.7292661666870117
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "output_p55_t155420",
+      "weight": 119.67941988632083,
+      "virtual_weight": 0.4902382791042328
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "output_p55_t155420",
+      "weight": 116.00255770236254,
+      "virtual_weight": 0.24306455254554749
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t155420",
+      "weight": -115.25889685750008,
+      "virtual_weight": -0.22445744276046753
+    },
+    {
+      "source": "feat_p55_L15_f269",
+      "target": "output_p55_t155420",
+      "weight": 93.95305150747299,
+      "virtual_weight": 0.5194363594055176
+    },
+    {
+      "source": "feat_p55_L17_f272",
+      "target": "output_p55_t155420",
+      "weight": 79.27235141396523,
+      "virtual_weight": 0.1763567328453064
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "output_p55_t236798",
+      "weight": 135.9736638367176,
+      "virtual_weight": 0.21600264310836792
+    },
+    {
+      "source": "feat_p55_L23_f197",
+      "target": "output_p55_t236798",
+      "weight": -133.25797718763351,
+      "virtual_weight": -0.25950920581817627
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "output_p55_t236798",
+      "weight": 112.10373564809561,
+      "virtual_weight": 0.6936039328575134
+    },
+    {
+      "source": "feat_p55_L17_f863",
+      "target": "output_p55_t236798",
+      "weight": -95.11217531561852,
+      "virtual_weight": -0.1488453447818756
+    },
+    {
+      "source": "feat_p55_L15_f1897",
+      "target": "output_p55_t236798",
+      "weight": 86.34187519550323,
+      "virtual_weight": 0.2539466917514801
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L16_f359",
+      "weight": 10120.5,
+      "virtual_weight": 32.4375
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "feat_p55_L16_f359",
+      "weight": 7846.53125,
+      "virtual_weight": 30.53125
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L16_f359",
+      "weight": -5977.20703125,
+      "virtual_weight": -13.5078125
+    },
+    {
+      "source": "feat_p55_L14_f2326",
+      "target": "feat_p55_L16_f359",
+      "weight": 5517.6328125,
+      "virtual_weight": 27.28125
+    },
+    {
+      "source": "feat_p55_L15_f249",
+      "target": "feat_p55_L16_f359",
+      "weight": 5421.515625,
+      "virtual_weight": 14.9765625
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "feat_p55_L16_f345",
+      "weight": 11753.9453125,
+      "virtual_weight": 18.671875
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L16_f345",
+      "weight": 9272.25,
+      "virtual_weight": 29.71875
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "feat_p55_L16_f345",
+      "weight": 8292.62109375,
+      "virtual_weight": 33.96875
+    },
+    {
+      "source": "feat_p55_L12_f19",
+      "target": "feat_p55_L16_f345",
+      "weight": 6626.390625,
+      "virtual_weight": 26.0625
+    },
+    {
+      "source": "feat_p55_L14_f123",
+      "target": "feat_p55_L16_f345",
+      "weight": 6083.4375,
+      "virtual_weight": 16.09375
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L16_f959",
+      "weight": 9984.0,
+      "virtual_weight": 32.0
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "feat_p55_L16_f959",
+      "weight": 9268.0625,
+      "virtual_weight": 36.0625
+    },
+    {
+      "source": "feat_p55_L15_f790",
+      "target": "feat_p55_L16_f959",
+      "weight": 7391.70703125,
+      "virtual_weight": 11.7421875
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "feat_p55_L16_f959",
+      "weight": -4871.478515625,
+      "virtual_weight": -30.140625
+    },
+    {
+      "source": "feat_p55_L15_f249",
+      "target": "feat_p55_L16_f959",
+      "weight": 4236.53125,
+      "virtual_weight": 11.703125
+    },
+    {
+      "source": "feat_p55_L0_f131",
+      "target": "feat_p55_L4_f159",
+      "weight": 276.181640625,
+      "virtual_weight": 3.34765625
+    },
+    {
+      "source": "feat_p55_L2_f465",
+      "target": "feat_p55_L4_f159",
+      "weight": 229.81689453125,
+      "virtual_weight": 2.17578125
+    },
+    {
+      "source": "feat_p55_L0_f285",
+      "target": "feat_p55_L4_f159",
+      "weight": 195.154296875,
+      "virtual_weight": 1.2734375
+    },
+    {
+      "source": "feat_p55_L0_f195",
+      "target": "feat_p55_L4_f159",
+      "weight": -184.97705078125,
+      "virtual_weight": -1.16796875
+    },
+    {
+      "source": "feat_p55_L0_f588",
+      "target": "feat_p55_L4_f159",
+      "weight": 136.6845703125,
+      "virtual_weight": 3.6328125
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "feat_p55_L15_f790",
+      "weight": 6576.1171875,
+      "virtual_weight": 26.9375
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "feat_p55_L15_f790",
+      "weight": 5188.1875,
+      "virtual_weight": 20.1875
+    },
+    {
+      "source": "feat_p55_L12_f19",
+      "target": "feat_p55_L15_f790",
+      "weight": 4862.53125,
+      "virtual_weight": 19.125
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L15_f790",
+      "weight": 3921.9375,
+      "virtual_weight": 12.5703125
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L15_f790",
+      "weight": 2774.267578125,
+      "virtual_weight": 6.26953125
+    },
+    {
+      "source": "feat_p55_L10_f1283",
+      "target": "feat_p55_L15_f65",
+      "weight": 4540.03125,
+      "virtual_weight": 28.734375
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L15_f65",
+      "weight": 3697.6875,
+      "virtual_weight": 11.8515625
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L15_f65",
+      "weight": 2451.03515625,
+      "virtual_weight": 5.5390625
+    },
+    {
+      "source": "feat_p55_L13_f196",
+      "target": "feat_p55_L15_f65",
+      "weight": 2437.1953125,
+      "virtual_weight": 19.734375
+    },
+    {
+      "source": "feat_p55_L14_f631",
+      "target": "feat_p55_L15_f65",
+      "weight": 2235.1640625,
+      "virtual_weight": 8.9765625
+    },
+    {
+      "source": "feat_p55_L15_f65",
+      "target": "feat_p55_L23_f197",
+      "weight": 19434.2578125,
+      "virtual_weight": 40.59375
+    },
+    {
+      "source": "feat_p55_L16_f359",
+      "target": "feat_p55_L23_f197",
+      "weight": 10948.875,
+      "virtual_weight": 37.625
+    },
+    {
+      "source": "feat_p55_L18_f159",
+      "target": "feat_p55_L23_f197",
+      "weight": 10822.5234375,
+      "virtual_weight": 19.171875
+    },
+    {
+      "source": "feat_p55_L8_f35",
+      "target": "feat_p55_L23_f197",
+      "weight": 10407.375,
+      "virtual_weight": 43.5
+    },
+    {
+      "source": "feat_p55_L3_f166",
+      "target": "feat_p55_L23_f197",
+      "weight": 9977.87109375,
+      "virtual_weight": 111.5625
+    },
+    {
+      "source": "feat_p55_L16_f345",
+      "target": "feat_p55_L17_f101",
+      "weight": 5253.478515625,
+      "virtual_weight": 11.0078125
+    },
+    {
+      "source": "feat_p55_L15_f1256",
+      "target": "feat_p55_L17_f101",
+      "weight": 4179.205078125,
+      "virtual_weight": 17.171875
+    },
+    {
+      "source": "feat_p55_L15_f249",
+      "target": "feat_p55_L17_f101",
+      "weight": 3583.234375,
+      "virtual_weight": 9.8984375
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L17_f101",
+      "weight": 3456.375,
+      "virtual_weight": 11.078125
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L17_f101",
+      "weight": -3054.287109375,
+      "virtual_weight": -6.90234375
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L15_f9399",
+      "weight": 10958.7890625,
+      "virtual_weight": 24.765625
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L15_f9399",
+      "weight": 9052.875,
+      "virtual_weight": 29.015625
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "feat_p55_L15_f9399",
+      "weight": 6736.32421875,
+      "virtual_weight": 27.59375
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "feat_p55_L15_f9399",
+      "weight": 6686.015625,
+      "virtual_weight": 26.015625
+    },
+    {
+      "source": "feat_p55_L10_f5",
+      "target": "feat_p55_L15_f9399",
+      "weight": 5662.25,
+      "virtual_weight": 29.0
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L13_f1572",
+      "weight": 2160.64453125,
+      "virtual_weight": 4.8828125
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "feat_p55_L13_f1572",
+      "weight": 1897.6904296875,
+      "virtual_weight": 7.7734375
+    },
+    {
+      "source": "feat_p55_L0_f115",
+      "target": "feat_p55_L13_f1572",
+      "weight": -1880.1533203125,
+      "virtual_weight": -11.6328125
+    },
+    {
+      "source": "feat_p55_L10_f1283",
+      "target": "feat_p55_L13_f1572",
+      "weight": 1573.828125,
+      "virtual_weight": 9.9609375
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L13_f1572",
+      "weight": 1460.0625,
+      "virtual_weight": 4.6796875
+    },
+    {
+      "source": "feat_p55_L13_f1572",
+      "target": "feat_p55_L15_f896",
+      "weight": 6601.6875,
+      "virtual_weight": 25.6875
+    },
+    {
+      "source": "feat_p55_L9_f316",
+      "target": "feat_p55_L15_f896",
+      "weight": 4386.97265625,
+      "virtual_weight": 9.9140625
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L15_f896",
+      "weight": 2734.875,
+      "virtual_weight": 8.765625
+    },
+    {
+      "source": "feat_p55_L11_f5609",
+      "target": "feat_p55_L15_f896",
+      "weight": -2572.8486328125,
+      "virtual_weight": -10.5390625
+    },
+    {
+      "source": "feat_p55_L11_f476",
+      "target": "feat_p55_L15_f896",
+      "weight": 2486.38671875,
+      "virtual_weight": 25.46875
+    },
+    {
+      "source": "feat_p55_L4_f159",
+      "target": "feat_p55_L9_f316",
+      "weight": 5318.625,
+      "virtual_weight": 17.046875
+    },
+    {
+      "source": "feat_p55_L5_f2713",
+      "target": "feat_p55_L9_f316",
+      "weight": -1464.1728515625,
+      "virtual_weight": -15.796875
+    }
+  ]
+}
